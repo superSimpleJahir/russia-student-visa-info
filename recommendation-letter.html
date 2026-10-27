@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recommendation Letter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --text: #1b2330; --muted: #556070; --rule: #c9d2dc; --fill: #fff3a8; }
+  @page { size: A4; margin: 16mm 18mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #e9edf2; color: var(--text); font-family: "Noto Sans", Arial, sans-serif; font-size: 10.2pt; line-height: 1.5; }
+  .page { width: 210mm; min-height: 297mm; margin: 16px auto; padding: 20mm; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+  .letterhead { border-bottom: 1.5px solid var(--rule); padding-bottom: 8px; margin-bottom: 14px; color: var(--muted); font-size: 9.5pt; }
+  .letterhead b { color: var(--text); font-size: 11pt; }
+  .subject { font-weight: 700; margin: 10px 0 10px; }
+  p { margin: 0 0 8px; text-align: justify; }
+  .sign { margin-top: 18px; }
+  .sign .line { height: 34px; }
+  .fill { background: var(--fill); padding: 0 3px; border-radius: 2px; }
+  @media print {
+    body { background: #fff; }
+    .page { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; }
+  }
+  @media screen and (max-width: 820px) {
+    .page { width: auto; min-height: 0; margin: 0; padding: 20px 16px; }
+    p { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="letterhead">
+    <b><span class="fill">[Qtec full legal name]</span></b><br>
+    <span class="fill">[Company address, Dhaka, Bangladesh]</span> · <span class="fill">[company website]</span><br>
+    <span class="fill">(Print on the company letterhead pad if possible)</span>
+  </div>
+
+  <p><span class="fill">[Date]</span></p>
+
+  <p>To the Selection Committee,<br>Russian Government Scholarship Programme</p>
+
+  <div class="subject">Subject: Letter of recommendation for <span class="fill">[APPLICANT FULL NAME]</span></div>
+
+  <p>I am writing to recommend <span class="fill">[Applicant name]</span> for a Bachelor's degree in Informatics and Computer Engineering under the Russian Government Scholarship. I am a Team Lead at <span class="fill">[Qtec full legal name]</span>, a software company in Dhaka, Bangladesh. I have directly supervised <span class="fill">[Applicant name]</span>'s work since <span class="fill">[Month]</span> 2024, a period of about two years and eight months.</p>
+
+  <p>In my team, <span class="fill">[Applicant name]</span> works as a Front-end Developer, building production web applications with React and Next.js. Projects during this time include Amal Education, an AI-based platform that supports teachers; JG Healthcare, a healthcare website with doctor search, appointment booking and a patient portal; and Autocare, a marketplace for automotive products and services. These are live products used by real customers, and the work requires care, reliability and good communication with the rest of the team.</p>
+
+  <p>What stands out most about <span class="fill">[Applicant name]</span> is the ability to learn quickly and independently. Before joining us, <span class="fill">[Applicant name]</span> learned web development independently at home during the COVID-19 period, and has since grown into a dependable member of our team. <span class="fill">[Add one specific example here: a difficult feature that was delivered, a problem that was solved, or a time a teammate was helped.]</span></p>
+
+  <p><span class="fill">[Applicant name]</span> also brings a background that is unusual among our developers: a Diploma in Electronics Technology and a year of maintenance work at a power plant. This combination of hardware and software experience is a strong foundation for Informatics and Computer Engineering. I believe this degree is the right next step, and I am confident it will be put to full use.</p>
+
+  <p>I recommend <span class="fill">[Applicant name]</span> without reservation. Please feel free to contact me if you need any further information.</p>
+
+  <div class="sign">
+    <p>Sincerely,</p>
+    <div class="line"></div>
+    <p><b><span class="fill">[Team Lead full name]</span></b><br>
+    Team Lead, <span class="fill">[Qtec full legal name]</span><br>
+    Email: <span class="fill">[official email]</span> · Phone: <span class="fill">[phone]</span></p>
+  </div>
+
+</div>
+</body>
+</html>

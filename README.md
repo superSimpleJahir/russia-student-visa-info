@@ -33,10 +33,26 @@
   - What is the exact Power China job title? (The draft uses "Sub-Assistant Engineer".)
   - What is Qtec's full legal name?
   - Do legalized documents have to be ready by the quota deadline, or only later for enrollment and the visa? Scans are usually enough at the application stage, but confirm this with Russian House.
-  - Budget: the user said "5–7 lakh" taka. It is not confirmed whether that is per year or in total. If it is per year, self-funded study is possible only at the cheapest regional universities. If it is the total, only the quota route is realistic.
-  - Recommender: the user does not know whom to ask. Suggested: the Qtec team lead or manager (first choice), plus a Diploma teacher or the Power China supervisor.
+  - The Team Lead's name has not been given yet. "Likhon" may be the name, or it may have meant "write it".
 - **Known facts (answered by the user):**
   - Passport is valid for another 4–5 years, which is enough.
+  - Budget: **5–7 lakh taka for the FIRST YEAR ONLY.** From year 2 on, the applicant must pay their own way through part-time work.
+    - With the quota (tuition free), this is feasible. Year 1 (preparatory) is covered by the budget and should be spent learning Russian, not working. From year 2, part-time work in a big city (~26–34k RUB a month for a courier at ~20 h/week) can cover regional living costs (~15–22k RUB a month).
+    - **Without the quota it is NOT feasible.** Part-time income cannot also cover tuition of 1.5–3 lakh RUB a year. Advise against going self-funded.
+    - Because the applicant depends on job income, prefer universities in large cities (Kazan, Nizhny Novgorod, Yekaterinburg, Novosibirsk, St. Petersburg). Suggested change: replace TUSUR (Tomsk, a small job market) with UrFU (Yekaterinburg) or NSU/NSTU (Novosibirsk). This is not yet confirmed by the user.
+    - Unverified: whether preparatory-year students may legally work, and whether remote work for Qtec from Russia is legal. Getting money from Bangladesh into Russia is hard because of sanctions. Never suggest hundi (it is illegal).
+  - **Money transfer (checked 27 Oct 2026):**
+    - **Taptap Send does NOT work.** It only sends money *to* Bangladesh, from the UK, EU, US, Canada, Australia and the UAE, and Russia is not supported.
+    - Wise, Western Union, PayPal, Visa and Mastercard don't work for Russia either.
+    - Realistic options:
+      - Carry year-1 money as cash. Bangladesh allows max $5,000 cash per trip with a passport endorsement from an AD bank; ask about the education/student-file quota. Russia needs no declaration under $10,000.
+      - A student-file bank transfer to a Russian bank still on SWIFT. It may be refused, so test with a small amount first.
+      - Ask Bangladeshi students already in Russia what currently works.
+  - **IT jobs in Russia (checked 27 Oct 2026):**
+    - Legal: since Aug 2020, full-time students in state-accredited programs can work without a permit. Confirm with the university.
+    - Frontend pay (Habr Career, Apr 2026, full-time, RUB/month): intern 41–88k, junior 63–117k, middle 148–253k. City averages: Moscow 180k, St. Petersburg 158k, Yekaterinburg 126k, Novosibirsk 108k, Nizhny Novgorod 86k.
+    - Realistic from year 2–3, once Russian reaches about B1–B2 (most teams work in Russian). Most vacancies are full-time, so target internships and part-time roles. Year 1: no job; learn Russian and build a portfolio. Year 2: courier work as a backup while applying for IT internships.
+  - Recommender: the Qtec Team Lead, who has supervised the applicant for about 2 years 8 months (since early 2024). The draft is in `recommendation-letter.html`. A second letter from a Diploma teacher or the Power China supervisor is optional.
   - No IELTS or other English test. Focus on Russian-taught quota programs. Innopolis has its own English test, and HSE's English programs would need proof of English.
   - Note: Visa, Mastercard and PayPal don't work in Russia, so plan how money will be sent.
 - **Placeholders still to fill in `cv.html` / `motivation-letter.html`:**
@@ -52,10 +68,10 @@
   - The date on the letter
 - **Next 3 actions, in order:**
   1. Contact Russian House Dhaka or the embassy. Ask about the quota age limit, BTEB Diploma acceptance, the exact deadline, and when documents must be legalized.
-  2. Request experience certificates from Power China and Qtec. These also settle the job title and the company's legal name. At the same time, ask the Qtec team lead or manager for a recommendation letter.
+  2. Request experience certificates from Power China and Qtec. These also settle the job title and the company's legal name. At the same time, give the Qtec Team Lead the draft in `recommendation-letter.html` to review, add one specific example to, and sign.
   3. Create an Outlook/Yandex email and an education-in-russia.com account, then fill in the CV and letter and export them to PDF.
 - **Useful next help:**
-  - A recommendation letter draft
+  - Finalising and signing the recommendation letter, and optionally a second letter
   - Help filling in the CV and motivation letter
   - Walking through the quota form
   - The document legalization steps
@@ -63,7 +79,7 @@
   - Interview preparation
 - **Files:**
   - `README.md` (this file) and `russia-scholarship-guide.html` are current.
-  - `cv.html` and `motivation-letter.html` are A4 HTML. Print them to PDF from Chrome.
+  - `cv.html`, `motivation-letter.html` and `recommendation-letter.html` are A4 HTML. Yellow highlights mark placeholders. Print them to PDF from Chrome.
   - ⚠️ `ami-russia-student-visa-valiant-cerf.md` is an **outdated first draft**. It does not mention the Open Doors age rule. Do not rely on it.
 
 ---
@@ -75,6 +91,7 @@
 | [russia-scholarship-guide.html](russia-scholarship-guide.html) | পূর্ণ গাইড: ২৩টা university-র website, বিষয়ের code, স্কলারশিপের link, timeline, ডকুমেন্ট চেকলিস্ট। Browser-এ খুলুন। |
 | [cv.html](cv.html) | English CV। হলুদ জায়গাগুলো পূরণ করে Chrome-এ Ctrl+P দিয়ে PDF বানান। |
 | [motivation-letter.html](motivation-letter.html) | English Motivation Letter (~৪৮০ শব্দ, ১ পৃষ্ঠা)। এটাও একইভাবে পূরণ করে PDF বানান। |
+| [recommendation-letter.html](recommendation-letter.html) | Qtec-এর Team Lead-এর জন্য Recommendation Letter-এর খসড়া। উনি পড়ে, একটা নির্দিষ্ট উদাহরণ যোগ করে, company-র প্যাডে প্রিন্ট করে সই করবেন। |
 
 ---
 
@@ -92,8 +109,8 @@
 | আগ্রহ | Computer, Electronics, Robotics, Telecom, Cyber Security, AI |
 | Passport | আছে, মেয়াদ আরও ৪–৫ বছর ✅ |
 | IELTS | দেওয়া নেই |
-| বাজেট | ৫–৭ লাখ টাকা (প্রতি বছর নাকি মোট, এখনো ঠিক করা হয়নি) |
-| Recommendation letter | এখনো কেউ ঠিক হয়নি। প্রথম পছন্দ Qtec-এর team lead বা manager |
+| বাজেট | **শুধু প্রথম বছরের জন্য ৫–৭ লাখ টাকা।** এরপর part-time কাজ করে নিজের খরচ চালাতে হবে। Quota পেলে সম্ভব। **Quota ছাড়া সম্ভব না।** |
+| Recommendation letter | Qtec-এর Team Lead, যিনি ~২ বছর ৮ মাস ধরে আমাকে চেনেন। খসড়া তৈরি: [recommendation-letter.html](recommendation-letter.html) |
 
 ---
 
@@ -166,7 +183,7 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 - [ ] Outlook বা Yandex email খোলা (দূতাবাস Gmail না দিতে বলেছিল)
 - [ ] education-in-russia.com-এ account খোলা
 - [ ] Power China আর Qtec থেকে experience certificate নেওয়া
-- [ ] Recommendation letter নেওয়া: ১টা Qtec-এর team lead বা manager-এর কাছ থেকে, আর সম্ভব হলে ১টা Diploma-র শিক্ষক বা Power China-র supervisor-এর কাছ থেকে
+- [ ] Recommendation letter: Team Lead-কে `recommendation-letter.html`-এর খসড়া দেওয়া। উনি পড়ে, একটা উদাহরণ যোগ করে, company-র প্যাডে সই করবেন। দ্বিতীয় letter (Diploma-র শিক্ষক বা Power China-র supervisor) ঐচ্ছিক।
 - [ ] `cv.html` আর `motivation-letter.html`-এর হলুদ জায়গা পূরণ করে PDF বানানো
   - [ ] Power China-র পদবি certificate-এর সাথে মিলিয়ে নেওয়া
   - [ ] Qtec-এর পুরো আইনি নাম বসানো
