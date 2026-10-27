@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>রাশিয়া স্কলারশিপ গাইড</title>
+<meta name="description" content="CSE/Electronics প্রোফাইলের জন্য রাশিয়ার সেরা বিশ্ববিদ্যালয়, স্কলারশিপ ওয়েবসাইট, আবেদন প্রক্রিয়া ও চেকলিস্ট — সেপ্টেম্বর ২০২৭ intake।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --surface-2: #f0f3f7;
+    --text: #1b2330;
+    --muted: #5a6577;
+    --border: #dde3ea;
+    --accent: #1f5fbf;
+    --accent-soft: #e7effb;
+    --warn: #b4380c;
+    --warn-soft: #fdeee6;
+    --ok: #1d7a46;
+    --ok-soft: #e5f4ec;
+    --gold: #9a6b00;
+    --gold-soft: #fbf3dc;
+    --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 1px 3px rgba(16, 24, 40, .08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f141b;
+      --surface: #171e27;
+      --surface-2: #1d2631;
+      --text: #e6ebf1;
+      --muted: #9aa6b6;
+      --border: #2a3542;
+      --accent: #7fb0ff;
+      --accent-soft: #1b2b44;
+      --warn: #ff9b70;
+      --warn-soft: #3a2117;
+      --ok: #6fd39c;
+      --ok-soft: #15301f;
+      --gold: #f0c35a;
+      --gold-soft: #33290f;
+      --shadow: none;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f141b;
+    --surface: #171e27;
+    --surface-2: #1d2631;
+    --text: #e6ebf1;
+    --muted: #9aa6b6;
+    --border: #2a3542;
+    --accent: #7fb0ff;
+    --accent-soft: #1b2b44;
+    --warn: #ff9b70;
+    --warn-soft: #3a2117;
+    --ok: #6fd39c;
+    --ok-soft: #15301f;
+    --gold: #f0c35a;
+    --gold-soft: #33290f;
+    --shadow: none;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Noto Sans Bengali", "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px 64px; }
+  a { color: var(--accent); text-underline-offset: 2px; word-break: break-word; }
+  h1, h2, h3 { line-height: 1.3; margin: 0; }
+  h2 { font-size: 1.4rem; margin-bottom: 12px; }
+  h3 { font-size: 1.08rem; margin: 18px 0 8px; }
+  p { margin: 0 0 10px; }
+  ul, ol { margin: 0 0 10px; padding-left: 1.3em; }
+  li { margin-bottom: 4px; }
+  code, .code { font-family: "Noto Sans", ui-monospace, monospace; font-weight: 600; background: var(--surface-2); padding: 1px 6px; border-radius: 4px; font-size: .92em; white-space: nowrap; }
+
+  header.hero { padding: 32px 0 20px; }
+  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); }
+  .hero .sub { color: var(--muted); margin-top: 6px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .pill { display: inline-block; font-size: .82rem; padding: 2px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .pill.ok { background: var(--ok-soft); color: var(--ok); }
+  .pill.gold { background: var(--gold-soft); color: var(--gold); }
+
+  nav.toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 20px; }
+  nav.toc a { text-decoration: none; font-size: .88rem; padding: 4px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text); }
+  nav.toc a:hover { border-color: var(--accent); color: var(--accent); }
+
+  section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px 20px; margin-bottom: 18px; box-shadow: var(--shadow); scroll-margin-top: 12px; }
+  .alert { border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; border: 1px solid; }
+  .alert.warn { background: var(--warn-soft); border-color: var(--warn); }
+  .alert.warn strong.t { color: var(--warn); }
+  .alert.info { background: var(--accent-soft); border-color: var(--accent); }
+  .alert.ok { background: var(--ok-soft); border-color: var(--ok); }
+  .alert p:last-child, .alert ul:last-child { margin-bottom: 0; }
+
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); }
+  .card { border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; background: var(--surface-2); }
+  .card h3 { margin-top: 0; }
+  .card .big { font-size: 1.15rem; font-weight: 700; }
+  .countdown { font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
+  .countdown.warn { color: var(--warn); }
+  .muted { color: var(--muted); }
+  .small { font-size: .88rem; }
+
+  .table-wrap { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--border); border-radius: 10px; margin: 8px 0 14px; }
+  table { border-collapse: collapse; width: 100%; min-width: 720px; font-size: .93rem; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--border); }
+  th { background: var(--surface-2); font-weight: 600; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  td.num { color: var(--muted); width: 36px; }
+  .uni { font-weight: 600; }
+  .stars { color: var(--gold); letter-spacing: 1px; white-space: nowrap; }
+  tr.best td { background: var(--ok-soft); }
+
+  .steps { counter-reset: s; list-style: none; padding: 0; }
+  .steps > li { counter-increment: s; position: relative; padding: 2px 0 12px 44px; margin: 0; }
+  .steps > li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: var(--surface); font-weight: 700; display: grid; place-items: center; font-family: "Noto Sans", sans-serif; }
+
+  .timeline { list-style: none; padding: 0; margin: 0; border-left: 3px solid var(--border); }
+  .timeline li { position: relative; padding: 0 0 14px 18px; margin-left: 8px; }
+  .timeline li::before { content: ""; position: absolute; left: -27px; top: 7px; width: 13px; height: 13px; border-radius: 50%; background: var(--surface); border: 3px solid var(--accent); }
+  .timeline li.hot::before { border-color: var(--warn); background: var(--warn); }
+  .timeline .when { font-weight: 700; }
+
+  .check { list-style: none; padding: 0; }
+  .check li { display: flex; gap: 10px; align-items: flex-start; padding: 8px 4px; border-bottom: 1px dashed var(--border); margin: 0; }
+  .check li:last-child { border-bottom: none; }
+  .check input { width: 20px; height: 20px; margin-top: 4px; accent-color: var(--accent); flex: 0 0 auto; }
+  .check label { cursor: pointer; }
+  .check input:checked + label { color: var(--muted); text-decoration: line-through; }
+  .progress { height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; border: 1px solid var(--border); }
+  .progress > div { height: 100%; width: 0; background: var(--ok); transition: width .25s; }
+
+  .links { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .link-card { border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; background: var(--surface-2); }
+  .link-card .name { font-weight: 700; }
+  .link-card a.url { font-family: "Noto Sans", sans-serif; font-weight: 600; font-size: .92rem; }
+
+  blockquote { margin: 8px 0 12px; padding: 10px 14px; border-left: 4px solid var(--accent); background: var(--surface-2); border-radius: 0 8px 8px 0; font-family: "Noto Sans", sans-serif; font-size: .93rem; }
+  footer { color: var(--muted); font-size: .85rem; text-align: center; margin-top: 24px; }
+  .theme-btn { position: fixed; right: 14px; bottom: 14px; border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: .85rem; cursor: pointer; box-shadow: var(--shadow); }
+
+  @media (max-width: 560px) {
+    section { padding: 18px 14px; }
+    h2 { font-size: 1.25rem; }
+  }
+  @media print {
+    body { background: #fff; color: #000; font-size: 12px; }
+    nav.toc, .theme-btn { display: none; }
+    section { box-shadow: none; break-inside: auto; border-color: #ccc; }
+    .table-wrap { overflow: visible; border: none; }
+    table { min-width: 0; }
+    a { color: #000; }
+    a.url::after, td a::after { content: " (" attr(href) ")"; font-size: .8em; color: #444; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <h1>🇷🇺 রাশিয়া স্কলারশিপ ও বিশ্ববিদ্যালয় গাইড</h1>
+  <p class="sub">Intake: সেপ্টেম্বর ২০২৭ · আপনার CSE / Electronics প্রোফাইল অনুযায়ী বানানো</p>
+  <div class="meta">
+    <span class="pill">আপডেট: ২৭ অক্টোবর ২০২৬</span>
+    <span class="pill ok">Level: Bachelor's</span>
+    <span class="pill gold">সেরা বিষয়: 09.03.01</span>
+    <span class="pill warn">মূল পথ: সরকারি Quota (~১৫ জানুয়ারি ২০২৭)</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="সূচিপত্র">
+  <a href="#summary">১. সংক্ষেপে</a>
+  <a href="#profile">২. প্রোফাইল</a>
+  <a href="#subject">৩. বিষয়</a>
+  <a href="#unis">৪. বিশ্ববিদ্যালয়</a>
+  <a href="#six">৫. ৬টি চয়েস</a>
+  <a href="#websites">৬. ওয়েবসাইট</a>
+  <a href="#process">৭. আবেদন প্রক্রিয়া</a>
+  <a href="#checklist">৮. চেকলিস্ট</a>
+  <a href="#letter">৯. Motivation Letter</a>
+  <a href="#income">১০. আয় ও সতর্কতা</a>
+  <a href="#sources">Sources</a>
+</nav>
+
+<!-- ১. সংক্ষেপে -->
+<section id="summary">
+  <h2>১. সংক্ষেপে (Summary)</h2>
+
+  <div class="alert warn">
+    <p><strong class="t">⚠️ Open Doors আপনার জন্য প্রযোজ্য নয়:</strong> Open Doors-এর Bachelor's track-এ শুধু তারাই আবেদন করতে পারবে যাদের বয়স ২০ আগস্ট ২০২৬ তারিখে ১৬ থেকে ২৩ বছরের মধ্যে ছিল। আপনার জন্ম ২০ ডিসেম্বর ২০০০, তাই সেদিন আপনার বয়স ছিল <strong>২৫</strong>। আপনার মূল পথ তাই <strong>সরকারি Quota</strong>: <a href="https://education-in-russia.com/" target="_blank" rel="noopener">education-in-russia.com</a>, শেষ তারিখ আনুমানিক ১৫ জানুয়ারি ২০২৭।</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>⏳ Open Doors রেজিস্ট্রেশন</h3>
+      <div class="countdown warn" data-deadline="2026-11-01">—</div>
+      <p class="small muted">শেষ তারিখ: ১ নভেম্বর ২০২৬। শুধু যাদের বয়স ১৬–২৩।</p>
+    </div>
+    <div class="card">
+      <h3>⏳ সরকারি Quota (আনুমানিক)</h3>
+      <div class="countdown" data-deadline="2027-01-15">—</div>
+      <p class="small muted">শেষ তারিখ আনুমানিক ১৫ জানুয়ারি ২০২৭। ঠিক তারিখ portal-এ দেখে নিন।</p>
+    </div>
+    <div class="card">
+      <h3>🎓 আপনার জন্য সেরা বিষয়</h3>
+      <p class="big">09.03.01 Informatics &amp; Computer Engineering</p>
+      <p class="small muted">এখানে Electronics আর Software দুটোই কাজে লাগবে। এখান থেকে AI, Robotics, Embedded সব দিকে যাওয়া যায়।</p>
+    </div>
+    <div class="card">
+      <h3>📚 Level</h3>
+      <p class="big">Bachelor's (৪ বছর)</p>
+      <p class="small muted">রুশ ভাষা না জানলে আগে ১ বছর Preparatory (ভাষা কোর্স) করতে হবে। Quota পেলে সেটাও ফ্রি।</p>
+    </div>
+  </div>
+
+  <h3>✅ এখন যা করবেন (৫টি কাজ)</h3>
+  <ol class="steps">
+    <li>ঢাকার <strong>Russian House</strong> বা দূতাবাস থেকে জেনে নিন quota-য় বয়সের কোনো সীমা আছে কিনা, আর আপনার Diploma দিয়ে Bachelor's-এ আবেদন করা যায় কিনা।</li>
+    <li>একটা <strong>Outlook বা Yandex email</strong> খুলুন। গত বছর দূতাবাস quota-র আবেদনে এই দুটো email ব্যবহার করতে বলেছিল।</li>
+    <li><a href="https://education-in-russia.com/" target="_blank" rel="noopener">education-in-russia.com</a>-এ account খুলে quota-র আবেদন করুন। ৬টা university বেছে নিন (<a href="#six">৫ নম্বর অংশ</a> দেখুন)।</li>
+    <li>কাগজপত্র তৈরি শুরু করুন: অনুবাদ, notary, MoFA attestation আর দূতাবাসের legalization (<a href="#checklist">চেকলিস্ট</a> দেখুন)।</li>
+    <li>Scholarship নিশ্চিত না হওয়া পর্যন্ত <strong>NUB-তে পড়া আর Qtec-এর চাকরি ছাড়বেন না।</strong></li>
+  </ol>
+</section>
+
+<!-- ২. প্রোফাইল -->
+<section id="profile">
+  <h2>২. আপনার প্রোফাইল বিশ্লেষণ</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>বিষয়</th><th>আপনার তথ্য</th><th>মূল্যায়ন</th></tr></thead>
+      <tbody>
+        <tr><td>SSC</td><td>GPA 4.50 / 5.00</td><td>ভালো</td></tr>
+        <tr><td>Diploma in Engineering (Electronics), BTEB</td><td>CGPA 3.71 / 4.00 (2020)</td><td>খুব ভালো। রাশিয়ায় এটা “secondary vocational education” হিসেবে গণ্য হয়, তাই <strong>Bachelor's-এ আবেদন করা যাবে</strong>।</td></tr>
+        <tr><td>বর্তমান পড়াশোনা</td><td>CSE, 1st semester, NUB</td><td>রাশিয়ায় নতুন করে Bachelor's শুরু করতে হবে। NUB-এর credit সাধারণত transfer হয় না।</td></tr>
+        <tr><td>কাজের অভিজ্ঞতা ১</td><td>Power China, power plant (2023, ১ বছর)</td><td>Electronics আর electrical-এর বাস্তব অভিজ্ঞতা। এটা বড় plus point।</td></tr>
+        <tr><td>কাজের অভিজ্ঞতা ২</td><td>Qtec, Software Engineer (Frontend), 2024 থেকে এখন পর্যন্ত</td><td>Software-এর বাস্তব অভিজ্ঞতা। Portfolio আর GitHub দেখানোর সুযোগ আছে।</td></tr>
+        <tr><td>আগ্রহ</td><td>Computer, Electronics, Robotics, Telecom, Cyber Security, AI</td><td>Hardware আর Software দুটো মিলিয়েই আগ্রহ। এর সাথে সবচেয়ে বেশি মেলে <strong>09.03.01</strong>।</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <h3>💪 শক্তির দিক</h3>
+      <ul>
+        <li>Diploma-র ফল ভালো (3.71)</li>
+        <li>২ বছরের বেশি বাস্তব কাজের অভিজ্ঞতা, Electronics আর Software দুই দিকেই</li>
+        <li>Motivation letter-এ বলার মতো স্পষ্ট একটা গল্প আছে</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>⚠️ যেগুলো সামলাতে হবে</h3>
+      <ul>
+        <li><strong>Master's-এ আবেদন করা যাবে না</strong>, কারণ এখনো Bachelor's degree নেই</li>
+        <li>২০২০ থেকে ২০২৩ পর্যন্ত সময়টা CV-তে ব্যাখ্যা করুন (কোর্স, শেখা, ফ্রিল্যান্স কাজ ইত্যাদি)</li>
+        <li>রুশ ভাষা জানা নেই। আজ থেকেই শেখা শুরু করুন, অন্তত A1 লেভেল পর্যন্ত</li>
+        <li>Open Doors-এর Bachelor's track-এ বয়সের সীমা ২৩ (২০ আগস্ট ২০২৬ তারিখ অনুযায়ী)। বয়স বেশি হলে আপনার পথ সরকারি Quota</li>
+        <li>Diploma-র স্বীকৃতি নিয়ে নিশ্চিত হতে Russian House Dhaka-কে একবার জিজ্ঞেস করুন</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ৩. বিষয় -->
+<section id="subject">
+  <h2>৩. কোন বিষয়ে পড়বেন? (Russian Program Code)</h2>
+  <p>রাশিয়ায় প্রতিটা বিষয়ের একটা নির্দিষ্ট code থাকে। University-র website-এ এই code দিয়ে সার্চ করলে প্রোগ্রাম সহজে পাবেন। <span class="muted">(সবুজ সারিটা আমার মূল পরামর্শ।)</span></p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Code</th><th>বিষয় (English / Русский)</th><th>আপনার সাথে মিল</th><th>কেন / ক্যারিয়ার</th></tr></thead>
+      <tbody>
+        <tr class="best"><td><code>09.03.01</code></td><td><strong>Informatics and Computer Engineering</strong><br><span class="muted small">Информатика и вычислительная техника</span></td><td class="stars">★★★★★</td><td>Electronics আর Software দুটোই লাগে। এখান থেকে Embedded systems, AI, Robotics, Computer hardware নিয়ে কাজ করা যায়। <strong>আপনার জন্য সবচেয়ে উপযুক্ত।</strong></td></tr>
+        <tr><td><code>09.03.04</code></td><td><strong>Software Engineering</strong><br><span class="muted small">Программная инженерия</span></td><td class="stars">★★★★☆</td><td>আপনার বর্তমান চাকরির সাথে সবচেয়ে মেলে। চাকরির বাজার বড়। তবে Electronics-এর অংশ কম।</td></tr>
+        <tr><td><code>15.03.06</code></td><td><strong>Mechatronics and Robotics</strong><br><span class="muted small">Мехатроника и робототехника</span></td><td class="stars">★★★★☆</td><td>Robotics-এ আগ্রহ থাকলে ভালো। Electronics-এর জ্ঞান কাজে লাগবে।</td></tr>
+        <tr><td><code>11.03.02</code></td><td><strong>Infocommunication Technologies &amp; Communication Systems</strong> (Telecom)<br><span class="muted small">Инфокоммуникационные технологии и системы связи</span></td><td class="stars">★★★★☆</td><td>Telecom, Networking, 5G। Diploma-র সাথে ভালো মেলে।</td></tr>
+        <tr><td><code>10.03.01</code></td><td><strong>Information Security</strong> (Cyber Security)<br><span class="muted small">Информационная безопасность</span></td><td class="stars">★★★☆☆</td><td>Cyber security-র ক্যারিয়ার। ⚠️ কিছু প্রোগ্রামে বিদেশিদের ভর্তিতে সীমাবদ্ধতা থাকতে পারে, তাই university-কে জিজ্ঞেস করে নিন।</td></tr>
+        <tr><td><code>01.03.02</code></td><td><strong>Applied Mathematics and Informatics</strong><br><span class="muted small">Прикладная математика и информатика</span></td><td class="stars">★★★☆☆</td><td>AI আর Data Science-এর সবচেয়ে মজবুত ভিত্তি। তবে অঙ্ক অনেক বেশি।</td></tr>
+        <tr><td><code>11.03.04</code></td><td><strong>Electronics and Nanoelectronics</strong><br><span class="muted small">Электроника и наноэлектроника</span></td><td class="stars">★★★☆☆</td><td>পুরোপুরি Electronics আর chip design। Software কম।</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="alert info">
+    <p><strong>Quota ফর্মের টিপ:</strong> education-in-russia.com-এর ফর্মে একটাই field বা group বেছে নেওয়া যায়। Group চাইলে <code>09.00.00 Informatics and Computer Engineering</code> নিন। এতে 09.03.01, 09.03.02, 09.03.03 আর 09.03.04 সব চলে আসে।</p>
+  </div>
+</section>
+
+<!-- ৪. বিশ্ববিদ্যালয় -->
+<section id="unis">
+  <h2>৪. সেরা বিশ্ববিদ্যালয়ের তালিকা ও ওয়েবসাইট</h2>
+  <p class="small muted">সব link ২৭ অক্টোবর ২০২৬-এ পরীক্ষা করা হয়েছে। “খরচ” কলামে বছরে tuition-এর আনুমানিক মাত্রা দেওয়া আছে: <strong>কম</strong> ≈ ১.৫–৩ লাখ রুবল, <strong>মাঝারি</strong> ≈ ২.৫–৪.৫ লাখ, <strong>বেশি</strong> ≈ ৫ লাখ রুবল বা তার বেশি। Quota পেলে tuition লাগবে না। Bachelor-এর বেশিরভাগ প্রোগ্রাম রুশ ভাষায়। English প্রোগ্রাম থাকলে fee সাধারণত বেশি হয়।</p>
+
+  <h3>🏆 ক) শীর্ষ টেক বিশ্ববিদ্যালয় (প্রতিযোগিতা বেশি)</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>University</th><th>শহর</th><th>আপনার জন্য প্রাসঙ্গিক বিষয়</th><th>খরচ</th><th>Website</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td class="uni">ITMO University</td><td>St. Petersburg</td><td>CS, AI, Robotics, Cyber Security, Programming</td><td>বেশি</td><td><a href="https://en.itmo.ru/" target="_blank" rel="noopener">en.itmo.ru</a></td></tr>
+        <tr><td class="num">2</td><td class="uni">MIPT (Phystech)</td><td>Moscow</td><td>AI, Applied Math &amp; CS, Electronics (অঙ্ক আর ফিজিক্সে খুব শক্ত হতে হবে)</td><td>বেশি</td><td><a href="https://eng.mipt.ru/" target="_blank" rel="noopener">eng.mipt.ru</a></td></tr>
+        <tr><td class="num">3</td><td class="uni">Bauman Moscow State Technical University</td><td>Moscow</td><td>Robotics, Computer Engineering, Info Security, Radio-electronics</td><td>বেশি</td><td><a href="https://bmstu.ru/" target="_blank" rel="noopener">bmstu.ru</a> <span class="small muted">(বিদেশ থেকে মাঝে মাঝে খোলে না)</span></td></tr>
+        <tr><td class="num">4</td><td class="uni">HSE University</td><td>Moscow (St. Petersburg, Nizhny Novgorod আর Perm-এও campus আছে)</td><td>CS, Software Eng, Data Science/AI, Info Security। English প্রোগ্রামও আছে</td><td>বেশি</td><td><a href="https://admissions.hse.ru/en/" target="_blank" rel="noopener">admissions.hse.ru/en</a></td></tr>
+        <tr><td class="num">5</td><td class="uni">Innopolis University</td><td>Innopolis (Kazan-এর কাছে)</td><td>Computer Science &amp; Engineering, <strong>পুরো English-এ</strong>। AI আর Robotics Master's লেভেলে</td><td>বেশি (৮ লাখ রুবল; grant পেলে ৩.২–৬.৪ লাখ)</td><td><a href="https://apply.innopolis.university/en/" target="_blank" rel="noopener">apply.innopolis.university/en</a></td></tr>
+        <tr><td class="num">6</td><td class="uni">MEPhI (National Research Nuclear University)</td><td>Moscow</td><td>Cyber Security, Info Security, Applied Math, Electronics</td><td>বেশি</td><td><a href="https://eng.mephi.ru/" target="_blank" rel="noopener">eng.mephi.ru</a></td></tr>
+        <tr><td class="num">7</td><td class="uni">Peter the Great St. Petersburg Polytechnic (SPbPU)</td><td>St. Petersburg</td><td>CS, Mechatronics &amp; Robotics, Telecom, Electronics</td><td>মাঝারি থেকে বেশি</td><td><a href="https://english.spbstu.ru/" target="_blank" rel="noopener">english.spbstu.ru</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>📡 খ) Electronics আর Telecom-এর বিশেষায়িত বিশ্ববিদ্যালয়</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>University</th><th>শহর</th><th>আপনার জন্য প্রাসঙ্গিক বিষয়</th><th>খরচ</th><th>Website</th></tr></thead>
+      <tbody>
+        <tr><td class="num">8</td><td class="uni">LETI (St. Petersburg Electrotechnical University)</td><td>St. Petersburg</td><td>Electronics, Radio-engineering, Computer Eng, Telecom, Info Security</td><td>মাঝারি</td><td><a href="https://etu.ru/en/" target="_blank" rel="noopener">etu.ru/en</a></td></tr>
+        <tr><td class="num">9</td><td class="uni">Bonch-Bruevich University of Telecommunications (SPbSUT)</td><td>St. Petersburg</td><td>Telecom, Networks, Info Security, Software</td><td>মাঝারি</td><td><a href="https://www.sut.ru/eng" target="_blank" rel="noopener">sut.ru/eng</a></td></tr>
+        <tr><td class="num">10</td><td class="uni">MTUCI (Moscow Technical University of Communications &amp; Informatics)</td><td>Moscow</td><td>Telecom, IT, Info Security, Networks</td><td>মাঝারি থেকে বেশি</td><td><a href="https://mtuci.ru/" target="_blank" rel="noopener">mtuci.ru</a></td></tr>
+        <tr><td class="num">11</td><td class="uni">MIET (National Research University of Electronic Technology)</td><td>Zelenograd (Moscow)</td><td>Microelectronics, Embedded, Computer Engineering</td><td>মাঝারি থেকে বেশি</td><td><a href="https://eng.miet.ru/" target="_blank" rel="noopener">eng.miet.ru</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>💰 গ) কম খরচের আঞ্চলিক বিশ্ববিদ্যালয় (বাজেট সীমিত হলে সেরা)</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>#</th><th>University</th><th>শহর</th><th>আপনার জন্য প্রাসঙ্গিক বিষয়</th><th>খরচ</th><th>Website</th></tr></thead>
+      <tbody>
+        <tr><td class="num">12</td><td class="uni">Kazan Federal University (KFU)</td><td>Kazan</td><td>IT &amp; Intelligent Systems Institute, Software Eng, Robotics</td><td>মাঝারি (উদাহরণ: Biology ২০২৬/২৭-এ ২.৮২ লাখ রুবল)</td><td><a href="https://eng.kpfu.ru/" target="_blank" rel="noopener">eng.kpfu.ru</a></td></tr>
+        <tr><td class="num">13</td><td class="uni">KNRTU-KAI (Kazan National Research Technical University, Tupolev)</td><td>Kazan</td><td>Radio-electronics, Telecom, Computer Eng, Info Security</td><td>কম থেকে মাঝারি</td><td><a href="https://kai.ru/en" target="_blank" rel="noopener">kai.ru/en</a></td></tr>
+        <tr><td class="num">14</td><td class="uni">TUSUR (Tomsk State University of Control Systems &amp; Radioelectronics)</td><td>Tomsk</td><td>Radio-electronics, Telecom, Info Security, Software</td><td>কম</td><td><a href="https://tusur.ru/en" target="_blank" rel="noopener">tusur.ru/en</a></td></tr>
+        <tr><td class="num">15</td><td class="uni">Tomsk Polytechnic University (TPU)</td><td>Tomsk</td><td>CS, Electronics, Automation &amp; Robotics</td><td>কম থেকে মাঝারি</td><td><a href="https://tpu.ru/en/" target="_blank" rel="noopener">tpu.ru/en</a></td></tr>
+        <tr><td class="num">16</td><td class="uni">Tomsk State University (TSU)</td><td>Tomsk</td><td>CS, Applied Math, Info Security</td><td>কম থেকে মাঝারি (২.১৬–৪.২৭ লাখ রুবল)</td><td><a href="https://en.tsu.ru/" target="_blank" rel="noopener">en.tsu.ru</a></td></tr>
+        <tr><td class="num">17</td><td class="uni">Lobachevsky University (UNN)</td><td>Nizhny Novgorod</td><td>CS, Software Eng, AI, Radiophysics। Programming-এ শক্তিশালী</td><td>কম থেকে মাঝারি</td><td><a href="https://eng.unn.ru/" target="_blank" rel="noopener">eng.unn.ru</a></td></tr>
+        <tr><td class="num">18</td><td class="uni">Ural Federal University (UrFU)</td><td>Yekaterinburg</td><td>IT, Radio-electronics, Info Security, Robotics</td><td>মাঝারি</td><td><a href="https://urfu.ru/en/" target="_blank" rel="noopener">urfu.ru/en</a></td></tr>
+        <tr><td class="num">19</td><td class="uni">Novosibirsk State University (NSU)</td><td>Novosibirsk</td><td>CS, AI, Math</td><td>মাঝারি</td><td><a href="https://english.nsu.ru/" target="_blank" rel="noopener">english.nsu.ru</a></td></tr>
+        <tr><td class="num">20</td><td class="uni">Novosibirsk State Technical University (NSTU)</td><td>Novosibirsk</td><td>Electronics, Telecom, Computer Eng, Info Security</td><td>কম থেকে মাঝারি</td><td><a href="https://en.nstu.ru/" target="_blank" rel="noopener">en.nstu.ru</a></td></tr>
+        <tr><td class="num">21</td><td class="uni">Ufa University of Science &amp; Technology (UUST)</td><td>Ufa</td><td>Computer Eng, Info Security, Electronics</td><td>কম</td><td><a href="https://uust.ru/en/" target="_blank" rel="noopener">uust.ru/en</a></td></tr>
+        <tr><td class="num">22</td><td class="uni">Samara University</td><td>Samara</td><td>CS, Electronics, Aerospace IT</td><td>কম থেকে মাঝারি</td><td><a href="https://ssau.ru/english" target="_blank" rel="noopener">ssau.ru/english</a></td></tr>
+        <tr><td class="num">23</td><td class="uni">RUDN University</td><td>Moscow</td><td>CS, Info Security, Telecom। বিদেশি ছাত্র অনেক, English প্রোগ্রামও আছে</td><td>বেশি</td><td><a href="https://eng.rudn.ru/" target="_blank" rel="noopener">eng.rudn.ru</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="small muted">❌ <strong>এড়িয়ে চলুন:</strong> Belgorod, Kursk, Bryansk (সীমান্তের কাছে) আর Crimea বা দখল করা অঞ্চলের যেকোনো university।</p>
+</section>
+
+<!-- ৫. ৬টি চয়েস -->
+<section id="six">
+  <h2>৫. Quota ফর্মে কোন ৬টি university দেবেন?</h2>
+  <p>Quota ফর্মে ৬টা university <strong>অগ্রাধিকার অনুযায়ী সাজিয়ে</strong> দিতে হয়। ১–২টা কঠিন, ২টা মাঝারি আর ২টা নিরাপদ চয়েস মিলিয়ে দিন, যাতে কোথাও না কোথাও সুযোগ পান।</p>
+  <div class="grid">
+    <div class="card">
+      <h3>🅰️ সেট A: রুশ ভাষায় পড়া (সুপারিশ)</h3>
+      <ol>
+        <li><strong>ITMO</strong>: কঠিন চয়েস, CS আর AI-এর জন্য সেরা</li>
+        <li><strong>LETI</strong>: Electronics আর Computer Eng</li>
+        <li><strong>Kazan Federal University</strong>: IT, শহরটাও ভালো</li>
+        <li><strong>KNRTU-KAI</strong>: Radio-electronics, খরচ কম</li>
+        <li><strong>TUSUR</strong>: Electronics আর Telecom, খরচ কম</li>
+        <li><strong>Lobachevsky (UNN)</strong>: CS, নিরাপদ চয়েস</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3>🅱️ সেট B: English-এ পড়তে চাইলে</h3>
+      <ol>
+        <li><strong>Innopolis</strong>: English CS (আলাদা grant-এর competition-এও অংশ নিন)</li>
+        <li><strong>HSE</strong>: English প্রোগ্রাম আছে</li>
+        <li><strong>ITMO</strong></li>
+        <li><strong>SPbPU</strong></li>
+        <li><strong>Kazan Federal University</strong></li>
+        <li><strong>Ural Federal University</strong></li>
+      </ol>
+      <p class="small muted">Quota-য় বেশিরভাগ সিট রুশ ভাষার প্রোগ্রামে। English-এর সিট কম, তাই প্রতিযোগিতা বেশি।</p>
+    </div>
+  </div>
+</section>
+
+<!-- ৬. ওয়েবসাইট -->
+<section id="websites">
+  <h2>৬. স্কলারশিপ ও আবেদনের গুরুত্বপূর্ণ ওয়েবসাইট</h2>
+  <div class="links">
+    <div class="link-card">
+      <div class="name">🏛️ Russian Government Quota (প্রধান স্কলারশিপ)</div>
+      <a class="url" href="https://education-in-russia.com/" target="_blank" rel="noopener">education-in-russia.com</a>
+      <p class="small">সরকারি অফিসিয়াল portal। Tuition ফ্রি, Preparatory বছরও ফ্রি। কিছু মাসিক ভাতা দেয়, তবে থাকা-খাওয়ার বাকি খরচ নিজের। ২০২৬-এ বাংলাদেশের জন্য <strong>২০০টা সিট</strong> ছিল। শেষ তারিখ আনুমানিক ১৫ জানুয়ারি ২০২৭।</p>
+    </div>
+    <div class="link-card">
+      <div class="name">🚪 Open Doors Scholarship (Bachelor's track আছে)</div>
+      <a class="url" href="https://od.globaluni.ru/register" target="_blank" rel="noopener">od.globaluni.ru/register</a>
+      <p class="small">অনলাইন competition, অংশ নিতে কোনো fee লাগে না। জিতলে quota-র সিট (tuition ফ্রি) আর মাসিক ভাতা। <strong>শর্ত: Bachelor's track-এর জন্য বয়স ১৬–২৩</strong> (২০ আগস্ট ২০২৬ তারিখে), আর আগে থেকে কোনো Bachelor's degree থাকা যাবে না। <strong>রেজিস্ট্রেশন ১ নভেম্বর ২০২৬ পর্যন্ত।</strong> Bachelor's-এর বিজয়ী ঘোষণা ২১ ডিসেম্বর ২০২৬।</p>
+    </div>
+    <div class="link-card">
+      <div class="name">💡 Innopolis Grant (English CS)</div>
+      <a class="url" href="https://apply.innopolis.university/en/" target="_blank" rel="noopener">apply.innopolis.university/en</a>
+      <p class="small">২০–৬০% tuition grant পাওয়া যায়। এর জন্য Math, CS, Programming আর English-এর পরীক্ষা আর একটা interview দিতে হয়। Quota-তেও Innopolis বেছে নেওয়া যায়।</p>
+    </div>
+    <div class="link-card">
+      <div class="name">🏠 Rossotrudnichestvo (Russian House)</div>
+      <a class="url" href="https://rs.gov.ru/en" target="_blank" rel="noopener">rs.gov.ru/en</a>
+      <p class="small">Quota-র প্রথম ধাপের বাছাই এরাই করে। <strong>ঢাকার Russian House</strong>-এর Facebook পেজে নতুন ঘোষণা আসে। ফোন বা ঠিকানা সেখান থেকে নিন।</p>
+    </div>
+    <div class="link-card">
+      <div class="name">🇷🇺 রাশিয়ান দূতাবাস, ঢাকা</div>
+      <a class="url" href="https://bangladesh.mid.ru/" target="_blank" rel="noopener">bangladesh.mid.ru</a>
+      <p class="small">Student visa আর কাগজপত্রের legalization এখানে হয়। স্কলারশিপের ঘোষণাও এখানে আসে।</p>
+    </div>
+    <div class="link-card">
+      <div class="name">🇧🇩 পররাষ্ট্র মন্ত্রণালয় (MoFA)</div>
+      <a class="url" href="https://mofa.gov.bd/" target="_blank" rel="noopener">mofa.gov.bd</a>
+      <p class="small">সার্টিফিকেট attestation এখানে করাতে হয়। আগে Education Board বা BTEB থেকে verify করিয়ে নিন।</p>
+    </div>
+    <div class="link-card">
+      <div class="name">🔎 Study in Russia (প্রোগ্রাম খোঁজার জন্য)</div>
+      <a class="url" href="https://studyinrussia.ru/" target="_blank" rel="noopener">studyinrussia.ru</a> · <a class="url" href="https://russia.study/" target="_blank" rel="noopener">russia.study</a>
+      <p class="small">বিষয় বা শহর দিয়ে university আর প্রোগ্রাম খুঁজতে পারবেন।</p>
+    </div>
+    <div class="link-card">
+      <div class="name">📜 বিদেশি সার্টিফিকেটের স্বীকৃতি (Glavexpertcentr)</div>
+      <a class="url" href="https://nic.gov.ru/" target="_blank" rel="noopener">nic.gov.ru</a>
+      <p class="small">রাশিয়ায় আপনার Diploma-র স্বীকৃতি নিয়ে প্রশ্ন থাকলে এখানে দেখুন। বিদেশ থেকে সাইটটা মাঝে মাঝে খোলে না।</p>
+    </div>
+  </div>
+  <div class="alert info" style="margin-top:12px">
+    <p><strong>নিজের খরচে (Self-funded) পড়তে চাইলে:</strong> সরাসরি university-র website-এ গিয়ে <em>“International Applicants”</em>, <em>“Admission”</em> বা <em>“Иностранным абитуриентам”</em> সেকশনে আবেদন করুন। অনেক university ভালো ফলের জন্য tuition-এ ছাড় দেয়, আর বিদেশিদের জন্য olympiad-ও আয়োজন করে। এগুলোর খোঁজ সেখানেই পাবেন।</p>
+  </div>
+</section>
+
+<!-- ৭. আবেদন প্রক্রিয়া -->
+<section id="process">
+  <h2>৭. আবেদন প্রক্রিয়া ও টাইমলাইন</h2>
+  <h3>📅 টাইমলাইন (সেপ্টেম্বর ২০২৭ intake)</h3>
+  <ul class="timeline">
+    <li class="hot"><span class="when">এখন থেকে ১ নভেম্বর ২০২৬:</span> Open Doors-এ রেজিস্ট্রেশন, portfolio, entry test আর motivation letter জমা (শুধু যাদের বয়স ১৬–২৩)</li>
+    <li><span class="when">১৩ নভেম্বর ২০২৬:</span> Open Doors-এর প্রথম ধাপের ফল। দ্বিতীয় ধাপের রেজিস্ট্রেশন ১৬ নভেম্বরের মধ্যে</li>
+    <li><span class="when">২১ ডিসেম্বর ২০২৬:</span> Open Doors-এ Bachelor's-এর বিজয়ী ঘোষণা</li>
+    <li class="hot"><span class="when">এখন থেকে আনুমানিক ১৫ জানুয়ারি ২০২৭:</span> education-in-russia.com-এ সরকারি quota-র আবেদন</li>
+    <li><span class="when">জানুয়ারি থেকে মার্চ ২০২৭ (আনুমানিক):</span> Russian House Dhaka-র বাছাই। Interview বা পরীক্ষা হতে পারে</li>
+    <li><span class="when">এপ্রিল থেকে জুন ২০২৭ (আনুমানিক):</span> University-র বাছাই আর ফলাফল</li>
+    <li><span class="when">জানুয়ারি থেকে জুলাই ২০২৭:</span> নিজের খরচে পড়ার আবেদন (backup), প্রতিটা university-র নিজের deadline অনুযায়ী</li>
+    <li><span class="when">জুলাই থেকে আগস্ট ২০২৭:</span> University-র invitation, তারপর ঢাকার দূতাবাসে student visa-র আবেদন</li>
+    <li><span class="when">সেপ্টেম্বর ২০২৭:</span> রাশিয়া যাত্রা আর Preparatory বা Bachelor's শুরু</li>
+  </ul>
+
+  <h3>🧭 Quota আবেদনের ধাপগুলো</h3>
+  <ol class="steps">
+    <li><a href="https://education-in-russia.com/" target="_blank" rel="noopener">education-in-russia.com</a>-এ Outlook বা Yandex email দিয়ে account খুলুন।</li>
+    <li>ফর্মে লিখুন: Level <strong>Bachelor's</strong>, field <strong>09.00.00 / 09.03.01</strong>। এরপর ৬টা university অগ্রাধিকার অনুযায়ী সাজান।</li>
+    <li>Scan করা কাগজ upload করুন: passport, certificate, transcript, ছবি, motivation letter, CV, portfolio।</li>
+    <li>Submit করে Russian House Dhaka থেকে যোগাযোগের অপেক্ষা করুন। Interview হলে নিজের কাজের অভিজ্ঞতা গুছিয়ে বলবেন।</li>
+    <li>নির্বাচিত হলে university ভর্তির চিঠি আর invitation পাঠাবে। তারপর visa।</li>
+    <li>রাশিয়া পৌঁছে university migration registration করে দেবে। এরপর medical test আর fingerprint দিতে হবে।</li>
+  </ol>
+
+  <h3>📄 কাগজপত্র legalization-এর ক্রম</h3>
+  <ol>
+    <li>SSC-র কাগজ Education Board থেকে আর Diploma-র কাগজ <strong>BTEB</strong> থেকে verify করান</li>
+    <li>এরপর <strong>পররাষ্ট্র মন্ত্রণালয় (MoFA)</strong>-এ attestation</li>
+    <li>এরপর <strong>রাশিয়ান দূতাবাস, ঢাকা</strong>-য় consular legalization</li>
+    <li>শেষে সব কাগজের রুশ অনুবাদ করিয়ে notarize করান</li>
+  </ol>
+  <p class="small muted">প্রক্রিয়া মাঝে মাঝে বদলায়। শুরু করার আগে Russian House Dhaka বা দূতাবাস থেকে বর্তমান নিয়ম জেনে নিন।</p>
+</section>
+
+<!-- ৮. চেকলিস্ট -->
+<section id="checklist">
+  <h2>৮. ডকুমেন্ট চেকলিস্ট</h2>
+  <p class="small muted">টিক দিলে এই browser-এ সেভ হয়ে থাকবে।</p>
+  <div class="progress" aria-hidden="true"><div id="bar"></div></div>
+  <p class="small" id="progress-text" style="margin-top:6px">০ / ০ সম্পন্ন</p>
+  <ul class="check" id="checklist-items">
+    <li><input type="checkbox" id="c1"><label for="c1"><strong>Passport</strong> (অন্তত ১৮ মাসের মেয়াদ থাকতে হবে)</label></li>
+    <li><input type="checkbox" id="c2"><label for="c2"><strong>Outlook বা Yandex email</strong> account</label></li>
+    <li><input type="checkbox" id="c3"><label for="c3"><strong>SSC</strong> certificate আর marksheet</label></li>
+    <li><input type="checkbox" id="c4"><label for="c4"><strong>Diploma in Engineering</strong> certificate আর সব semester-এর transcript</label></li>
+    <li><input type="checkbox" id="c5"><label for="c5">Board বা BTEB verification, এরপর <strong>MoFA attestation</strong></label></li>
+    <li><input type="checkbox" id="c6"><label for="c6"><strong>রাশিয়ান দূতাবাসে</strong> legalization</label></li>
+    <li><input type="checkbox" id="c7"><label for="c7">Passport আর শিক্ষার কাগজের <strong>রুশ অনুবাদ, notarize করা</strong></label></li>
+    <li><input type="checkbox" id="c8"><label for="c8"><strong>Medical certificate</strong> (form 086/u)</label></li>
+    <li><input type="checkbox" id="c9"><label for="c9"><strong>HIV negative</strong> certificate (visa-র জন্য লাগে)</label></li>
+    <li><input type="checkbox" id="c10"><label for="c10">ছবি (সাদা background, passport size)</label></li>
+    <li><input type="checkbox" id="c11"><label for="c11"><strong>Motivation letter</strong> (English, ১ পৃষ্ঠা)</label></li>
+    <li><input type="checkbox" id="c12"><label for="c12"><strong>CV</strong> (English, ২০২০ থেকে ২০২৩ সময়টার ব্যাখ্যাসহ)</label></li>
+    <li><input type="checkbox" id="c13"><label for="c13"><strong>Experience certificate</strong>: Power China আর Qtec</label></li>
+    <li><input type="checkbox" id="c14"><label for="c14"><strong>Recommendation letter</strong> ১–২টা (শিক্ষক বা manager)</label></li>
+    <li><input type="checkbox" id="c15"><label for="c15"><strong>Portfolio</strong>: GitHub, project link, অনলাইন কোর্সের certificate</label></li>
+    <li><input type="checkbox" id="c16"><label for="c16">রুশ ভাষা শেখা শুরু (Duolingo বা YouTube, অন্তত বর্ণমালা আর A1)</label></li>
+  </ul>
+</section>
+
+<!-- ৯. Motivation Letter -->
+<section id="letter">
+  <h2>৯. Motivation Letter: আপনার প্রোফাইলের জন্য কাঠামো</h2>
+  <p>আপনার সবচেয়ে বড় শক্তি হলো আপনার গল্প: <strong>Electronics থেকে Power Plant, সেখান থেকে Software, আর এখন লক্ষ্য AI আর Robotics</strong>। Letter-টা এভাবে ৫টা অনুচ্ছেদে সাজান:</p>
+  <ol>
+    <li><strong>শুরু:</strong> Electronics-এ আগ্রহ কীভাবে শুরু হলো। Diploma-র ফল (CGPA 3.71/4.00) উল্লেখ করুন।</li>
+    <li><strong>শিল্পের অভিজ্ঞতা:</strong> Power China-র power plant-এ কী শিখেছেন। বাস্তবে control আর electrical system কীভাবে কাজ করে।</li>
+    <li><strong>Software:</strong> Qtec-এ Frontend developer হিসেবে কী কী বানিয়েছেন। সেখান থেকে বুঝেছেন যে hardware, software আর AI একসাথে মিলছে।</li>
+    <li><strong>কেন এই প্রোগ্রাম আর এই university:</strong> নির্দিষ্ট lab বা প্রোগ্রামের নাম দিন। যেমন TUSUR-এর radio-electronics, ITMO-র robotics।</li>
+    <li><strong>লক্ষ্য:</strong> পড়া শেষে বাংলাদেশের power, telecom বা AI খাতে অবদান রাখার পরিকল্পনা। রুশ ভাষা শেখার অঙ্গীকার।</li>
+  </ol>
+  <p class="small muted">শুরুর লাইনের নমুনা (নিজের মতো করে বদলে নিন):</p>
+  <blockquote>“As a Diploma engineer in Electronics who has worked both on a power plant floor and in a software team, I have seen firsthand how hardware and software are converging. I want to study Informatics and Computer Engineering to build intelligent systems that connect the two.”</blockquote>
+</section>
+
+<!-- ১০. আয় ও সতর্কতা -->
+<section id="income">
+  <h2>১০. আয় ও সতর্কতা</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>💼 আয়ের বাস্তব চিত্র</h3>
+      <ul>
+        <li>আইন অনুযায়ী full-time ছাত্ররা পড়ার বাইরের সময়ে কাজ করতে পারে। নিয়ম নিয়ে সূত্রগুলোতে কিছু অমিল আছে, তাই university-র international office থেকে নিশ্চিত হয়ে নিন।</li>
+        <li>Courier-এর কাজে ঘণ্টায় ~৪০০ রুবল পাওয়া যায়। এতে থাকা-খাওয়ার খরচ চলতে পারে, কিন্তু tuition-এর টাকা উঠবে না।</li>
+        <li>আপনার <strong>Frontend skill</strong> courier-এর চেয়ে অনেক বেশি দামি। কিন্তু রাশিয়ায় PayPal বন্ধ, আর অনেক আন্তর্জাতিক payment সেবাও কাজ করে না। রুশ ভাষা শিখলে স্থানীয় IT internship-এর সুযোগ পাবেন।</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🛑 নিরাপত্তা</h3>
+      <ul>
+        <li><strong>যে রুশ কাগজ বোঝেন না, তাতে কখনো সই করবেন না।</strong> ২০২৫–২৬ সালে চাকরির লোভ দেখিয়ে বাংলাদেশিদের সেনাবাহিনীতে ঢোকানোর রিপোর্ট এসেছে।</li>
+        <li>Passport কারো হাতে দেবেন না।</li>
+        <li>যে দালাল “পড়া + চাকরি” package দেয়, তাদের এড়িয়ে চলুন। আবেদন করুন শুধু অফিসিয়াল সাইট, Russian House বা দূতাবাসের মাধ্যমে।</li>
+        <li>রাশিয়া পৌঁছে Moscow-তে বাংলাদেশ দূতাবাসের নম্বর save করে রাখুন।</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Sources -->
+<section id="sources">
+  <h2>Sources</h2>
+  <ul class="small">
+    <li><a href="https://od.globaluni.ru/" target="_blank" rel="noopener">Open Doors: 2026/27 dates and tracks</a></li>
+    <li><a href="https://education-in-russia.com/" target="_blank" rel="noopener">Education in Russia: official quota portal</a></li>
+    <li><a href="https://www.gw2ru.com/education/246490-foreigner-study-free-russian-university-2026" target="_blank" rel="noopener">GW2RU: How a foreigner can study for free in Russia (2026)</a></li>
+    <li><a href="https://www.gw2ru.com/useful-education/250691-useful_articles" target="_blank" rel="noopener">GW2RU: Cost of study and living (June 2026)</a></li>
+    <li><a href="https://www.dhakatribune.com/bangladesh/education/416282/russia-s-expanded-scholarships-spark-interest" target="_blank" rel="noopener">Dhaka Tribune: Russia's expanded scholarships (July 2026)</a></li>
+    <li><a href="https://online91.thedailystar.net/campus/opportunities/scholarships/news/russia-increase-number-scholarships-bangladeshi-students" target="_blank" rel="noopener">The Daily Star: 200 scholarships for Bangladeshi students</a></li>
+    <li><a href="https://borderless.so/ar/scholarships/open-doors/open-doors-russian-scholarship-project" target="_blank" rel="noopener">Borderless: Open Doors eligibility</a></li>
+    <li><a href="https://apply.innopolis.university/en/" target="_blank" rel="noopener">Innopolis University: admissions and grants</a></li>
+    <li><a href="https://eng.kpfu.ru/wp-content/uploads/2026/05/dalnee-zarubezhe-2.pdf" target="_blank" rel="noopener">KFU: 2026/27 fee document</a></li>
+    <li><a href="https://tusur.ru/en/degree-programs/bachelor-programs/bachelor-program-information-security" target="_blank" rel="noopener">TUSUR: Information Security bachelor program</a></li>
+    <li><a href="https://spb.hse.ru/en/news/343276537.html" target="_blank" rel="noopener">HSE: Work rules for international students</a></li>
+    <li><a href="https://www.intellinews.com/the-average-income-of-couriers-is-up-to-twice-the-average-regional-salary-211187" target="_blank" rel="noopener">Intellinews: Courier income in Russia</a></li>
+    <li><a href="https://www.fortifyrights.org/reg-inv-rep-2026-03-03/" target="_blank" rel="noopener">Fortify Rights: Coerced recruitment of Bangladeshi men (March 2026)</a></li>
+    <li><a href="https://en.prothomalo.com/bangladesh/cad77mqdzu" target="_blank" rel="noopener">Prothom Alo: How middlemen recruit Bangladeshi youth</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>এই গাইডের তথ্য ২৭ অক্টোবর ২০২৬ পর্যন্ত। Deadline আর fee বদলাতে পারে, তাই আবেদনের আগে অফিসিয়াল ওয়েবসাইটে মিলিয়ে নিন।</p>
+</footer>
+</div>
+
+<button class="theme-btn" id="theme-btn" type="button" aria-label="Theme পরিবর্তন">🌓 Theme</button>
+
+<script>
+  (function () {
+    var bnDigits = ['০','১','২','৩','৪','৫','৬','৭','৮','৯'];
+    function toBn(n) { return String(n).replace(/\d/g, function (d) { return bnDigits[d]; }); }
+
+    // Deadline countdowns
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    document.querySelectorAll('[data-deadline]').forEach(function (el) {
+      var p = el.getAttribute('data-deadline').split('-');
+      var end = new Date(+p[0], +p[1] - 1, +p[2]);
+      var days = Math.round((end - today) / 86400000);
+      if (days > 0) el.textContent = toBn(days) + ' দিন বাকি';
+      else if (days === 0) el.textContent = 'আজই শেষ দিন!';
+      else el.textContent = 'শেষ হয়ে গেছে';
+    });
+
+    // Checklist persistence
+    var KEY = 'ru-guide-checklist';
+    var saved = {};
+    try { saved = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { saved = {}; }
+    var boxes = document.querySelectorAll('#checklist-items input[type="checkbox"]');
+    var bar = document.getElementById('bar');
+    var text = document.getElementById('progress-text');
+    function update() {
+      var done = 0;
+      boxes.forEach(function (b) { if (b.checked) done++; });
+      bar.style.width = (boxes.length ? (done / boxes.length) * 100 : 0) + '%';
+      text.textContent = toBn(done) + ' / ' + toBn(boxes.length) + ' সম্পন্ন';
+    }
+    boxes.forEach(function (b) {
+      b.checked = !!saved[b.id];
+      b.addEventListener('change', function () {
+        saved[b.id] = b.checked;
+        try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+        update();
+      });
+    });
+    update();
+
+    // Theme toggle
+    var root = document.documentElement;
+    try {
+      var t = localStorage.getItem('ru-guide-theme');
+      if (t === 'light' || t === 'dark') root.setAttribute('data-theme', t);
+    } catch (e) {}
+    document.getElementById('theme-btn').addEventListener('click', function () {
+      var cur = root.getAttribute('data-theme');
+      var isDark = cur ? cur === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var next = isDark ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('ru-guide-theme', next); } catch (e) {}
+    });
+  })();
+</script>
+</body>
+</html>
