@@ -5,6 +5,69 @@
 
 ---
 
+## 🤖 Context for AI assistants
+
+- **Who:** A Bangladeshi applicant, born 20 Dec 2000, who plans to study in Russia. They write in Banglish. **Reply in Bangla (Bengali script), and keep university names, program codes and links in English.**
+- **Goal:** A Bachelor's in Informatics & Computer Engineering (`09.03.01`) in Russia, starting with the **September 2027** intake. Main funding route: the **Russian Government quota scholarship** at education-in-russia.com. Backup: self-funded study at a low-cost regional university.
+- **Status as of 27 Oct 2026:**
+  - Done:
+    - Research
+    - The guide, CV and motivation letter files
+  - Not done yet:
+    - The yellow placeholders in the CV and motivation letter are still unfilled
+    - The quota application has not been submitted
+    - No documents have been legalized
+    - Russian House Dhaka has not been contacted
+- **Settled decisions (do not re-open them):**
+  - Bachelor's, not Master's (the applicant has no bachelor's degree)
+  - Program `09.03.01` (enter `09.00.00` if the form asks for a group). The default 6-university shortlist is ITMO, LETI, KFU, KNRTU-KAI, TUSUR, UNN. It may be refined, but don't start from scratch.
+  - **Open Doors is not an option.** Its Bachelor's track has an age limit of 16–23, measured on 20 Aug 2026, and the applicant was 25 then.
+  - The quota is the main route
+  - The applicant keeps their NUB enrollment and Qtec job until a scholarship is confirmed
+  - Avoid border or war-affected regions
+- **Open questions:**
+  - Is there an age limit for the quota? None was found, but this is not confirmed.
+  - Is a BTEB Diploma accepted for Bachelor's entry?
+  - What is the exact 2027/28 quota deadline? (Estimated ~15 Jan 2027.)
+  - Can foreigners enroll in `10.03.01` Information Security?
+  - What is the exact Power China job title? (The draft uses "Sub-Assistant Engineer".)
+  - What is Qtec's full legal name?
+  - Do legalized documents have to be ready by the quota deadline, or only later for enrollment and the visa? Scans are usually enough at the application stage, but confirm this with Russian House.
+  - Budget: the user said "5–7 lakh" taka. It is not confirmed whether that is per year or in total. If it is per year, self-funded study is possible only at the cheapest regional universities. If it is the total, only the quota route is realistic.
+  - Recommender: the user does not know whom to ask. Suggested: the Qtec team lead or manager (first choice), plus a Diploma teacher or the Power China supervisor.
+- **Known facts (answered by the user):**
+  - Passport is valid for another 4–5 years, which is enough.
+  - No IELTS or other English test. Focus on Russian-taught quota programs. Innopolis has its own English test, and HSE's English programs would need proof of English.
+  - Note: Visa, Mastercard and PayPal don't work in Russia, so plan how money will be sent.
+- **Placeholders still to fill in `cv.html` / `motivation-letter.html`:**
+  - Full name (as in passport)
+  - Outlook/Yandex email, phone, GitHub
+  - NUB start month
+  - Polytechnic institute name
+  - SSC school, board and year
+  - Qtec start month
+  - Power China plant name and location, start and end months
+  - Extra skills (TypeScript, Tailwind etc.)
+  - English level
+  - The date on the letter
+- **Next 3 actions, in order:**
+  1. Contact Russian House Dhaka or the embassy. Ask about the quota age limit, BTEB Diploma acceptance, the exact deadline, and when documents must be legalized.
+  2. Request experience certificates from Power China and Qtec. These also settle the job title and the company's legal name. At the same time, ask the Qtec team lead or manager for a recommendation letter.
+  3. Create an Outlook/Yandex email and an education-in-russia.com account, then fill in the CV and letter and export them to PDF.
+- **Useful next help:**
+  - A recommendation letter draft
+  - Help filling in the CV and motivation letter
+  - Walking through the quota form
+  - The document legalization steps
+  - A study plan for Russian A1
+  - Interview preparation
+- **Files:**
+  - `README.md` (this file) and `russia-scholarship-guide.html` are current.
+  - `cv.html` and `motivation-letter.html` are A4 HTML. Print them to PDF from Chrome.
+  - ⚠️ `ami-russia-student-visa-valiant-cerf.md` is an **outdated first draft**. It does not mention the Open Doors age rule. Do not rely on it.
+
+---
+
 ## 📁 এই ফোল্ডারের ফাইল
 
 | ফাইল | কী আছে |
@@ -23,16 +86,20 @@
 | SSC | GPA 4.50 / 5.00 |
 | Diploma in Engineering (Electronics), BTEB | CGPA 3.71 / 4.00 (2020) |
 | বর্তমান পড়াশোনা | CSE, 1st semester, Northern University Bangladesh (NUB) |
-| ২০২০–২০২৩ | COVID-এর সময় বাসায় থেকে কাজ শিখেছি (web development) |
+| ২০২০ থেকে Power China-তে যোগ দেওয়া পর্যন্ত | COVID-এর সময় বাসায় থেকে কাজ শিখেছি (web development) |
 | ২০২৩ (১ বছর) | Power China: power plant-এর Maintenance Department-এ Sub-Assistant Engineer। 5–24V device maintenance |
 | ২০২৪ থেকে এখন পর্যন্ত | Qtec: Software Engineer (Frontend), React আর Next.js। Project: [Amal Education](https://platform.amal.education/chat), [JG Healthcare](https://jghealthcare.com/), [Autocare](https://autocare.com.bd/) সহ আরও অনেক |
 | আগ্রহ | Computer, Electronics, Robotics, Telecom, Cyber Security, AI |
+| Passport | আছে, মেয়াদ আরও ৪–৫ বছর ✅ |
+| IELTS | দেওয়া নেই |
+| বাজেট | ৫–৭ লাখ টাকা (প্রতি বছর নাকি মোট, এখনো ঠিক করা হয়নি) |
+| Recommendation letter | এখনো কেউ ঠিক হয়নি। প্রথম পছন্দ Qtec-এর team lead বা manager |
 
 ---
 
 ## ⭐ মূল সিদ্ধান্ত
 
-- **Level: Bachelor's (৪ বছর)।** Diploma দিয়ে আবেদন করা যায়। Master's-এ যাবে না, কারণ Bachelor's degree নেই।
+- **Level: Bachelor's (৪ বছর)।** রাশিয়ায় Diploma-কে "secondary vocational" শিক্ষা ধরা হয়, তাই এটা দিয়ে আবেদন করতে পারার কথা। তবে Russian House-এর কাছ থেকে **নিশ্চিত হতে হবে**। Master's-এ যাবে না, কারণ Bachelor's degree নেই।
 - রুশ ভাষা না জানলে আগে **১ বছর Preparatory** করতে হবে।
 - **বিষয়: `09.03.01` Informatics and Computer Engineering।** এখানে Electronics আর Software দুটোই লাগে।
   - Quota ফর্মে group চাইলে `09.00.00` দিন।
@@ -94,11 +161,12 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 
 ## ✅ To-Do
 
-- [ ] Russian House Dhaka বা দূতাবাসে যোগাযোগ (বয়সের সীমা আর Diploma-র স্বীকৃতি)
+- [ ] Russian House Dhaka বা দূতাবাসে যোগাযোগ (বয়সের সীমা, Diploma-র স্বীকৃতি, deadline, কবের মধ্যে legalization লাগবে)
+- [x] Passport আছে কিনা আর মেয়াদ কতদিন বাকি দেখা (অন্তত ১৮ মাস লাগবে)। আরও ৪–৫ বছর আছে ✅
 - [ ] Outlook বা Yandex email খোলা (দূতাবাস Gmail না দিতে বলেছিল)
 - [ ] education-in-russia.com-এ account খোলা
 - [ ] Power China আর Qtec থেকে experience certificate নেওয়া
-- [ ] Recommendation letter নেওয়া (Qtec-এর manager বা Diploma-র শিক্ষক)
+- [ ] Recommendation letter নেওয়া: ১টা Qtec-এর team lead বা manager-এর কাছ থেকে, আর সম্ভব হলে ১টা Diploma-র শিক্ষক বা Power China-র supervisor-এর কাছ থেকে
 - [ ] `cv.html` আর `motivation-letter.html`-এর হলুদ জায়গা পূরণ করে PDF বানানো
   - [ ] Power China-র পদবি certificate-এর সাথে মিলিয়ে নেওয়া
   - [ ] Qtec-এর পুরো আইনি নাম বসানো
@@ -123,7 +191,7 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 | কী | লিংক |
 |---|---|
 | সরকারি Quota portal | https://education-in-russia.com/ |
-| Rossotrudnichestvo (Russian House) | https://rs.gov.ru/en |
+| Rossotrudnichestvo (Russian House) | https://rs.gov.ru/en (ঢাকা অফিসের ঘোষণা আসে তাদের Facebook পেজে। সরাসরি link এখনো যাচাই করা হয়নি) |
 | রাশিয়ান দূতাবাস, ঢাকা | https://bangladesh.mid.ru/ |
 | পররাষ্ট্র মন্ত্রণালয় (attestation) | https://mofa.gov.bd/ |
 | Study in Russia (প্রোগ্রাম খোঁজা) | https://studyinrussia.ru/ |
