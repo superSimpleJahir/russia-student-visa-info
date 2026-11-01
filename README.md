@@ -56,7 +56,7 @@
     - Flow: register, then Create new application (a Draft), then Form tab, then Preferences tab, then Documents tab, then Submit for Review tab. On the last tab, print the application, sign it, scan it and upload it, then Submit. Status becomes "Under review".
     - Only ONE tuition-free application is allowed per applicant. Do not press "Withdraw application" by mistake.
     - Preferences tab: 1–6 universities, Russian-language level (required), a "preparatory course" tick, and whether the applicant would accept a tuition-paying place if no quota seat is given. For this applicant paid study is not feasible, so think before ticking it.
-    - Files: .jpeg, .png or .pdf, each under 10 MB.
+    - Files (checked in the PDF screenshots on 1 Nov 2026): .jpeg, .jpg, .png or .pdf, each under 10 MB and **60 MB combined**. The Documents tab starts with "Consent to the processing of personal data" (a "Print consent" button generates it; sign, scan, upload), then "Required documents for Selection Stage I" lists the first-stage documents. The Submit for Review tab ("Sending a request for verification") shows the application deadline for the applicant's country, which is the authoritative date.
     - The form needs the **representative's** name, date of birth, citizenship, phone and email. The phone and email must differ from the applicant's own. The applicant has not chosen a representative yet.
     - The form email must equal the registration email. All passport fields come from the passport that will be used to enter Russia.
     - Cyrillic name fields are optional. They come from the notarized Russian translation of the passport, or the Rossotrudnichestvo (Russian House) representative can fill them.
