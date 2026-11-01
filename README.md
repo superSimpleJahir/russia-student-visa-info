@@ -1,6 +1,6 @@
 # 🇷🇺 রাশিয়ায় পড়াশোনা: পরিকল্পনা ও সারসংক্ষেপ
 
-> শেষ আপডেট: ২৭ অক্টোবর ২০২৬ · লক্ষ্য: **সেপ্টেম্বর ২০২৭ intake**
+> শেষ আপডেট: ১ নভেম্বর ২০২৬ · লক্ষ্য: **সেপ্টেম্বর ২০২৭ intake**
 > Deadline আর fee বদলাতে পারে। আবেদনের আগে অফিসিয়াল ওয়েবসাইটে মিলিয়ে নিন।
 
 ---
@@ -52,12 +52,23 @@
     - Legal: since Aug 2020, full-time students in state-accredited programs can work without a permit. Confirm with the university.
     - Frontend pay (Habr Career, Apr 2026, full-time, RUB/month): intern 41–88k, junior 63–117k, middle 148–253k. City averages: Moscow 180k, St. Petersburg 158k, Yekaterinburg 126k, Novosibirsk 108k, Nizhny Novgorod 86k.
     - Realistic from year 2–3, once Russian reaches about B1–B2 (most teams work in Russian). Most vacancies are full-time, so target internships and part-time roles. Year 1: no job; learn Russian and build a portfolio. Year 2: courier work as a backup while applying for IT internships.
+  - **Official portal instruction read (1 Nov 2026)** (`education-in-russia.com/settings/static/media/Instruction(en).pdf`, 45 pages, but written for the 2021–22 cycle, so button names may differ today):
+    - Flow: register, then Create new application (a Draft), then Form tab, then Preferences tab, then Documents tab, then Submit for Review tab. On the last tab, print the application, sign it, scan it and upload it, then Submit. Status becomes "Under review".
+    - Only ONE tuition-free application is allowed per applicant. Do not press "Withdraw application" by mistake.
+    - Preferences tab: 1–6 universities, Russian-language level (required), a "preparatory course" tick, and whether the applicant would accept a tuition-paying place if no quota seat is given. For this applicant paid study is not feasible, so think before ticking it.
+    - Files: .jpeg, .png or .pdf, each under 10 MB.
+    - The form needs the **representative's** name, date of birth, citizenship, phone and email. The phone and email must differ from the applicant's own. The applicant has not chosen a representative yet.
+    - The form email must equal the registration email. All passport fields come from the passport that will be used to enter Russia.
+    - Cyrillic name fields are optional. They come from the notarized Russian translation of the passport, or the Rossotrudnichestvo (Russian House) representative can fill them.
+    - Visa section: pick "Visa required", country Bangladesh, city Dhaka.
+    - The PDF does NOT list which documents must be uploaded (that is only in screenshots), and it does not state any age limit. Check the Documents tab of the live portal and ask Russian House.
+    - After assignment ("Assigned for Study") a My Education section opens: arrival details, curator, visa directions, visa, migration card, registration and optional health insurance.
   - Recommender: the Qtec Team Lead, who has supervised the applicant for about 2 years 8 months (since early 2024). The draft is in `recommendation-letter.html`. A second letter from a Diploma teacher or the Power China supervisor is optional.
   - No IELTS or other English test. Focus on Russian-taught quota programs. Innopolis has its own English test, and HSE's English programs would need proof of English.
   - Note: Visa, Mastercard and PayPal don't work in Russia, so plan how money will be sent.
 - **Placeholders still to fill in `cv.html` / `motivation-letter.html`:**
-  - Full name (as in passport)
-  - Outlook/Yandex email, phone, GitHub
+  - GitHub link
+  - (Filled 1 Nov 2026: name "Md Jahirul Islam", mrjahirulislam@outlook.com, +880 1732569302. Confirm the name spelling matches the passport.)
   - NUB start month
   - Polytechnic institute name
   - SSC school, board and year
@@ -180,8 +191,11 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 
 - [ ] Russian House Dhaka বা দূতাবাসে যোগাযোগ (বয়সের সীমা, Diploma-র স্বীকৃতি, deadline, কবের মধ্যে legalization লাগবে)
 - [x] Passport আছে কিনা আর মেয়াদ কতদিন বাকি দেখা (অন্তত ১৮ মাস লাগবে)। আরও ৪–৫ বছর আছে ✅
-- [ ] Outlook বা Yandex email খোলা (দূতাবাস Gmail না দিতে বলেছিল)
-- [ ] education-in-russia.com-এ account খোলা
+- [x] Outlook email খোলা: mrjahirulislam@outlook.com ✅ (দূতাবাস Gmail না দিতে বলেছিল)
+- [ ] education-in-russia.com-এ account খোলা (Outlook/Yandex email দিয়ে। ফর্মের email এটার সাথে মিলতে হবে)
+- [ ] অভিভাবক বা প্রতিনিধি ঠিক করা। ফর্মে তাঁর নাম, জন্ম তারিখ, citizenship, মোবাইল নম্বর আর email লাগবে। নম্বর আর email আমার নিজেরটা থেকে আলাদা হতে হবে
+- [ ] Application-এ একবারই tuition-free আবেদন করা যায়, তাই submit-এর আগে সব তথ্য আর কাগজ ভালো করে মিলিয়ে নেওয়া। "Withdraw application" ভুল করে না চাপা
+- [ ] সব ফাইল .pdf/.jpeg/.png আর ১০ MB-র কম করা। Print করা application-এ সই করে scan করে upload করা
 - [ ] Power China আর Qtec থেকে experience certificate নেওয়া
 - [ ] Recommendation letter: Team Lead-কে `recommendation-letter.html`-এর খসড়া দেওয়া। উনি পড়ে, একটা উদাহরণ যোগ করে, company-র প্যাডে সই করবেন। দ্বিতীয় letter (Diploma-র শিক্ষক বা Power China-র supervisor) ঐচ্ছিক।
 - [ ] `cv.html` আর `motivation-letter.html`-এর হলুদ জায়গা পূরণ করে PDF বানানো
@@ -208,7 +222,10 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 | কী | লিংক |
 |---|---|
 | সরকারি Quota portal | https://education-in-russia.com/ |
-| Rossotrudnichestvo (Russian House) | https://rs.gov.ru/en (ঢাকা অফিসের ঘোষণা আসে তাদের Facebook পেজে। সরাসরি link এখনো যাচাই করা হয়নি) |
+| Rossotrudnichestvo (Russian House) | https://rs.gov.ru/en |
+| Russian House Dhaka: Facebook পেজ | https://www.facebook.com/RHDDHAKABD (পেজের "Contact info" থেকে নেওয়া, ১ নভেম্বর ২০২৬) |
+| Russian House Dhaka: email আর ফোন | russcultprog.bd@gmail.com · 01819-271133। Email-এর নাম "cultural program" মনে করায়, তাই শিক্ষা বিভাগের কাছে পৌঁছাবে কিনা নিশ্চিত না। Messenger আর ফোনেও চেষ্টা করুন |
+| Russian House Dhaka: ঠিকানা | 42 Bhasha Shoinik M.A. Matin Road (Road 7), Dhanmondi, Dhaka-1205। সময় রবি–বৃহস্পতি, সকাল ১০টা থেকে বিকেল ৫টা (পুরোনো সূত্র, যাওয়ার আগে নিশ্চিত করুন) |
 | রাশিয়ান দূতাবাস, ঢাকা | https://bangladesh.mid.ru/ |
 | পররাষ্ট্র মন্ত্রণালয় (attestation) | https://mofa.gov.bd/ |
 | Study in Russia (প্রোগ্রাম খোঁজা) | https://studyinrussia.ru/ |
@@ -216,6 +233,7 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 
 ## 📚 Sources
 
+- [Education in Russia: অফিসিয়াল applicant instruction (PDF)](https://education-in-russia.com/settings/static/media/Instruction(en).pdf)
 - [Open Doors Rules (বয়সের সীমা, Clause 3)](https://od.globaluni.ru/rules)
 - [GW2RU: Free study in Russia 2026](https://www.gw2ru.com/education/246490-foreigner-study-free-russian-university-2026)
 - [GW2RU: Cost of study and living (June 2026)](https://www.gw2ru.com/useful-education/250691-useful_articles)
