@@ -29,8 +29,8 @@
   - Is there an age limit for the quota? None was found, but this is not confirmed.
   - Is a BTEB Diploma accepted for Bachelor's entry?
   - What is the exact 2027/28 quota deadline? (Estimated ~15 Jan 2027.)
-  - Can foreigners enroll in `10.03.01` Information Security?
-  - What is the exact Power China job title? (The draft uses "Sub-Assistant Engineer".)
+  - Can foreigners enroll in `10.03.01` Information Security? Partly answered: Russian House's own quota IT announcement lists `10.03.01` among the Bachelor's tracks, so it is offered under the quota. Whether a specific university takes foreigners still needs checking.
+  - Power China: the user confirmed (1 Nov 2026) "Sub-Assistant Engineer" at "Powerchina Brasil", Mar 2021 to Jan 2023 (LinkedIn says "Assistant Engineer", so the LinkedIn title may need fixing). Plant: "Barishal 350 MW Coal-Fired Power Plant" (from the user's Google Maps link; coordinates 21.965 N, 90.071 E, which look like the Patuakhali/Payra area, so the district is not added to the CV).
   - What is Qtec's full legal name?
   - Do legalized documents have to be ready by the quota deadline, or only later for enrollment and the visa? Scans are usually enough at the application stage, but confirm this with Russian House.
   - The Team Lead's name has not been given yet. "Likhon" may be the name, or it may have meant "write it".
@@ -63,23 +63,33 @@
     - Visa section: pick "Visa required", country Bangladesh, city Dhaka.
     - The PDF does NOT list which documents must be uploaded (that is only in screenshots), and it does not state any age limit. Check the Documents tab of the live portal and ask Russian House.
     - After assignment ("Assigned for Study") a My Education section opens: arrival details, curator, visa directions, visa, migration card, registration and optional health insurance.
+  - **Russian House IT/technology quota announcement read (1 Nov 2026, text pasted by the user, 2025/26 cycle, deadline then was 15 Jan 2026):**
+    - Bachelor's tracks it lists: `02.03.03`, `09.03.01`, `09.03.04`, `10.03.01`, `09.03.02`, `11.03.02`. (`15.03.06` Robotics is not on it.)
+    - Universities it names as top IT choices: MIPT, HSE, MEPhI, UrFU, SibFU, KFU, TSU, TPU, NSU, ITMO, SPbPU, MIET, MPEI, Bauman, FEFU. LETI, KNRTU-KAI, TUSUR and UNN are not named, but this is only a promotional list, not the full list. UrFU and NSU are on it, which supports the earlier idea of swapping TUSUR for one of them (still not confirmed by the user).
+    - Contacts it gives: email `rusedu.bd@yandex.com`, WhatsApp +880 1817-294595, plus a Facebook video guide and a written guide (links in the table below).
+    - It gives no 2027/28 dates and no document list.
+  - **Russian House student visa guide for quota winners read (1 Nov 2026, text pasted by the user, 2026 version):**
+    - Steps: get the Directive Number from `russia-edu.minobrnauki.gov.ru` (same email as the application plus application number `BGD-XXXXX`), book at `dhaka.kdmid.ru`, fill the form at `visa.kdmid.ru` (Study, Common Education, single entry, 3 months), fill and sign the questionnaire, pay at `pay-russia.visa-cbc.com`, then go to the embassy.
+    - Documents for the embassy: passport and copy, printed visa form, appointment confirmation, signed questionnaire, ministry letter if any, **HIV negative report**, **apostilled** copy of the latest academic certificate and marksheet plus copies of all certificates and transcripts, **Affidavit of Financial Undertaking**, fee receipt, photos.
+    - Open point: this guide says "apostilled", while our legalization order is board verification, then MoFA attestation, then the Russian embassy. Ask Russian House which applies now before paying for any legalization.
+    - The full steps are in `russia-scholarship-guide.html` section 7.
+  - **Consent form (Russian House instruction, 1 Nov 2026, text pasted by the user):** the form is a Google Doc that Russian House shares for people who cannot download it from the portal. Fill name, passport number and passport place of issue on **pages 3 and 6**, add date and signature, then submit. A sample copy exists. Sources disagree on whether it is needed at the start or only after the interview, so ask. The Google Doc itself was not opened.
+  - **Russian House homepage (pasted 1 Nov 2026):** the latest news is dated 30 Sep 2026. Its quota announcements are the old 2025/26 ones (deadline 15 Jan 2026). **No 2027/28 quota dates were visible**, so check education-in-russia.com directly. Russian House also runs Russian language courses ("Free Russian language courses" is in its menu), which is useful for the A1 goal.
   - Recommender: the Qtec Team Lead, who has supervised the applicant for about 2 years 8 months (since early 2024). The draft is in `recommendation-letter.html`. A second letter from a Diploma teacher or the Power China supervisor is optional.
   - No IELTS or other English test. Focus on Russian-taught quota programs. Innopolis has its own English test, and HSE's English programs would need proof of English.
   - Note: Visa, Mastercard and PayPal don't work in Russia, so plan how money will be sent.
 - **Placeholders still to fill in `cv.html` / `motivation-letter.html`:**
   - GitHub link
   - (Filled 1 Nov 2026: name "Md Jahirul Islam", mrjahirulislam@outlook.com, +880 1732569302. Confirm the name spelling matches the passport.)
-  - NUB start month
-  - Polytechnic institute name
-  - SSC school, board and year
-  - Qtec start month
+  - (SSC board confirmed as Barisal and NUB start confirmed as October 2026 on 1 Nov 2026.) SSC (school "Dema Gulishakhali Hakimia High School" and year 2016 were taken from the user's own CV PDF, which mislabels it HSC. Confirm the year against the certificate)
+  - (Filled 1 Nov 2026 from the user's own CV PDF, LinkedIn and site: Barguna Polytechnic Institute, Diploma 2016–2020, Qtec Solution Limited from 18 Feb 2024, PowerChina Mar 2021–Jan 2023, GitHub `superSimpleJahir`, NUB start October 2026 (from the portfolio site, confirm).)
   - Power China plant name and location, start and end months
   - Extra skills (TypeScript, Tailwind etc.)
   - English level
   - The date on the letter
 - **Next 3 actions, in order:**
   1. Contact Russian House Dhaka or the embassy. Ask about the quota age limit, BTEB Diploma acceptance, the exact deadline, and when documents must be legalized.
-  2. Request experience certificates from Power China and Qtec. These also settle the job title and the company's legal name. At the same time, give the Qtec Team Lead the draft in `recommendation-letter.html` to review, add one specific example to, and sign.
+  2. Give the Qtec Team Lead the draft in `recommendation-letter.html` to review, add one specific example to, and sign.
   3. Create an Outlook/Yandex email and an education-in-russia.com account, then fill in the CV and letter and export them to PDF.
 - **Useful next help:**
   - Finalising and signing the recommendation letter, and optionally a second letter
@@ -114,9 +124,10 @@
 | SSC | GPA 4.50 / 5.00 |
 | Diploma in Engineering (Electronics), BTEB | CGPA 3.71 / 4.00 (2020) |
 | বর্তমান পড়াশোনা | CSE, 1st semester, Northern University Bangladesh (NUB) |
-| ২০২০ থেকে Power China-তে যোগ দেওয়া পর্যন্ত | COVID-এর সময় বাসায় থেকে কাজ শিখেছি (web development) |
-| ২০২৩ (১ বছর) | Power China: power plant-এর Maintenance Department-এ Sub-Assistant Engineer। 5–24V device maintenance |
-| ২০২৪ থেকে এখন পর্যন্ত | Qtec: Software Engineer (Frontend), React আর Next.js। Project: [Amal Education](https://platform.amal.education/chat), [JG Healthcare](https://jghealthcare.com/), [Autocare](https://autocare.com.bd/) সহ আরও অনেক |
+| ২০২০ থেকে মার্চ ২০২১ | COVID-এর সময় বাসায় থেকে কাজ শিখেছি (web development) |
+| মার্চ ২০২১ থেকে জানুয়ারি ২০২৩ (প্রায় ২ বছর) | Powerchina Brasil: power plant-এর Maintenance Department-এ Sub-Assistant Engineer। 5–24V device maintenance |
+| নভেম্বর ২০২৩ থেকে জুলাই ২০২৪ | As-Sunnah Foundation: Trainee (React.js, Bootstrap), LinkedIn অনুযায়ী। পার্ট-টাইম ছিল। ব্যবহারকারী CV-তে না দেওয়ার সিদ্ধান্ত নিয়েছেন (১ নভেম্বর ২০২৬) |
+| ১৮ ফেব্রুয়ারি ২০২৪ থেকে এখন পর্যন্ত | Qtec Solution Limited: Software Engineer (Frontend), React আর Next.js। Project: [Amal Education](https://platform.amal.education/chat), [JG Healthcare](https://jghealthcare.com/), [Autocare](https://autocare.com.bd/) সহ আরও অনেক |
 | আগ্রহ | Computer, Electronics, Robotics, Telecom, Cyber Security, AI |
 | Passport | আছে, মেয়াদ আরও ৪–৫ বছর ✅ |
 | IELTS | দেওয়া নেই |
@@ -192,11 +203,13 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 - [ ] Russian House Dhaka বা দূতাবাসে যোগাযোগ (বয়সের সীমা, Diploma-র স্বীকৃতি, deadline, কবের মধ্যে legalization লাগবে)
 - [x] Passport আছে কিনা আর মেয়াদ কতদিন বাকি দেখা (অন্তত ১৮ মাস লাগবে)। আরও ৪–৫ বছর আছে ✅
 - [x] Outlook email খোলা: mrjahirulislam@outlook.com ✅ (দূতাবাস Gmail না দিতে বলেছিল)
-- [ ] education-in-russia.com-এ account খোলা (Outlook/Yandex email দিয়ে। ফর্মের email এটার সাথে মিলতে হবে)
+- [x] education-in-russia.com-এ account খোলা ✅ (১ নভেম্বর ২০২৬)। Portal-এ নাম দেখাচ্ছে "Islam Jahir M.", তাই My Profile-এ passport-এর বানানের সাথে মিলিয়ে নেওয়া বাকি
+- [ ] My Applications-এ 2027–2028 ট্যাব আছে, কিন্তু ১ নভেম্বর ২০২৬-এ "Create a new application" চাপলে কিছু হয়নি, সম্ভবত আবেদন এখনো খোলেনি (Chrome translate বন্ধ করে আর অন্য browser-এ পরীক্ষা করা বাকি)। সপ্তাহে একবার দেখুন। খুললে এই ট্যাব থেকেই application বানাবেন (ভুল বছরে বানালে একমাত্র tuition-free সুযোগ নষ্ট হতে পারে)
+- [x] Portal-এর নাম: Lastname "Islam", Firstname "Md Jahirul" (passport-এর সাথে মিলিয়ে নেওয়া বাকি)
 - [ ] অভিভাবক বা প্রতিনিধি ঠিক করা। ফর্মে তাঁর নাম, জন্ম তারিখ, citizenship, মোবাইল নম্বর আর email লাগবে। নম্বর আর email আমার নিজেরটা থেকে আলাদা হতে হবে
 - [ ] Application-এ একবারই tuition-free আবেদন করা যায়, তাই submit-এর আগে সব তথ্য আর কাগজ ভালো করে মিলিয়ে নেওয়া। "Withdraw application" ভুল করে না চাপা
 - [ ] সব ফাইল .pdf/.jpeg/.png আর ১০ MB-র কম করা। Print করা application-এ সই করে scan করে upload করা
-- [ ] Power China আর Qtec থেকে experience certificate নেওয়া
+- [x] Experience certificate: Power China থেকে নেওয়া হয়নি, আর নেওয়ার দরকারও নেই (ব্যবহারকারীর সিদ্ধান্ত, ১ নভেম্বর ২০২৬)। Qtec-এর certificate ঐচ্ছিক। Power China-র appointment letter, ID card বা বেতনের কাগজ রেখে দেওয়া ভালো, প্রমাণ লাগলে কাজে আসবে
 - [ ] Recommendation letter: Team Lead-কে `recommendation-letter.html`-এর খসড়া দেওয়া। উনি পড়ে, একটা উদাহরণ যোগ করে, company-র প্যাডে সই করবেন। দ্বিতীয় letter (Diploma-র শিক্ষক বা Power China-র supervisor) ঐচ্ছিক।
 - [ ] `cv.html` আর `motivation-letter.html`-এর হলুদ জায়গা পূরণ করে PDF বানানো
   - [ ] Power China-র পদবি certificate-এর সাথে মিলিয়ে নেওয়া
@@ -224,7 +237,9 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 | সরকারি Quota portal | https://education-in-russia.com/ |
 | Rossotrudnichestvo (Russian House) | https://rs.gov.ru/en |
 | Russian House Dhaka: Facebook পেজ | https://www.facebook.com/RHDDHAKABD (পেজের "Contact info" থেকে নেওয়া, ১ নভেম্বর ২০২৬) |
-| Russian House Dhaka: email আর ফোন | russcultprog.bd@gmail.com · 01819-271133। Email-এর নাম "cultural program" মনে করায়, তাই শিক্ষা বিভাগের কাছে পৌঁছাবে কিনা নিশ্চিত না। Messenger আর ফোনেও চেষ্টা করুন |
+| **Russian House Dhaka: শিক্ষা বিভাগের email আর WhatsApp** | **rusedu.bd@yandex.com** · WhatsApp +880 1817-294595 (Russian House-এর অফিসিয়াল quota announcement থেকে, ১ নভেম্বর ২০২৬)। Quota-র প্রশ্ন এখানেই পাঠান |
+| Russian House Dhaka: সাধারণ যোগাযোগ | bangladesh@rs.gov.ru (সাইটের footer) · russcultprog.bd@gmail.com · 01819-271133 (Facebook পেজ থেকে। Email-এর নাম "cultural program" মনে করায়, শিক্ষা বিভাগের জন্য উপযুক্ত না) |
+| Russian House: quota-র ভিডিও আর লিখিত নির্দেশনা | https://www.facebook.com/reel/580560621596057 · https://www.facebook.com/share/p/1Fz6snuSQy/ |
 | Russian House Dhaka: ঠিকানা | 42 Bhasha Shoinik M.A. Matin Road (Road 7), Dhanmondi, Dhaka-1205। সময় রবি–বৃহস্পতি, সকাল ১০টা থেকে বিকেল ৫টা (পুরোনো সূত্র, যাওয়ার আগে নিশ্চিত করুন) |
 | রাশিয়ান দূতাবাস, ঢাকা | https://bangladesh.mid.ru/ |
 | পররাষ্ট্র মন্ত্রণালয় (attestation) | https://mofa.gov.bd/ |
