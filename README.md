@@ -1,6 +1,6 @@
 # 🇷🇺 রাশিয়ায় পড়াশোনা: পরিকল্পনা ও সারসংক্ষেপ
 
-> শেষ আপডেট: ১ নভেম্বর ২০২৬ · লক্ষ্য: **সেপ্টেম্বর ২০২৭ intake**
+> শেষ আপডেট: ১৮ নভেম্বর ২০২৬ · লক্ষ্য: **সেপ্টেম্বর ২০২৭ intake**
 > Deadline আর fee বদলাতে পারে। আবেদনের আগে অফিসিয়াল ওয়েবসাইটে মিলিয়ে নিন।
 
 ---
@@ -75,7 +75,7 @@
     - The full steps are in `russia-scholarship-guide.html` section 7.
   - **Consent form (Russian House instruction, 1 Nov 2026, text pasted by the user):** the form is a Google Doc that Russian House shares for people who cannot download it from the portal. Fill name, passport number and passport place of issue on **pages 3 and 6**, add date and signature, then submit. A sample copy exists. Sources disagree on whether it is needed at the start or only after the interview, so ask. The Google Doc itself was not opened.
   - **Russian House homepage (pasted 1 Nov 2026):** the latest news is dated 30 Sep 2026. Its quota announcements are the old 2025/26 ones (deadline 15 Jan 2026). **No 2027/28 quota dates were visible**, so check education-in-russia.com directly. Russian House also runs Russian language courses ("Free Russian language courses" is in its menu), which is useful for the A1 goal.
-  - Recommender: the Qtec Team Lead, who has supervised the applicant for about 2 years 8 months (since early 2024). The draft is in `recommendation-letter.html`. A second letter from a Diploma teacher or the Power China supervisor is optional.
+  - Recommender: the Qtec Team Lead, who has supervised the applicant for about 2 years 8 months (since early 2024). The draft is in `recommendation-letter.html`. Two more letters from Diploma teachers at Barguna Polytechnic Institute are planned (decided 18 Nov 2026). Drafts: `recommendation-letter-teacher-1.html` (academic and technical focus) and `recommendation-letter-teacher-2.html` (lab work, project and character focus). The teachers' details are not filled in yet. The two letters must stay different from each other, and the teachers must remove anything they cannot confirm. NUB teachers are not suitable because they have known the applicant only since October 2026.
   - No IELTS or other English test. Focus on Russian-taught quota programs. Innopolis has its own English test, and HSE's English programs would need proof of English.
   - Note: Visa, Mastercard and PayPal don't work in Russia, so plan how money will be sent.
 - **Placeholders still to fill in `cv.html` / `motivation-letter.html`:**
@@ -92,7 +92,7 @@
   2. Give the Qtec Team Lead the draft in `recommendation-letter.html` to review, add one specific example to, and sign.
   3. Create an Outlook/Yandex email and an education-in-russia.com account, then fill in the CV and letter and export them to PDF.
 - **Useful next help:**
-  - Finalising and signing the recommendation letter, and optionally a second letter
+  - Finalising and signing the recommendation letters (Team Lead + 2 Diploma teachers)
   - Help filling in the CV and motivation letter
   - Walking through the quota form
   - The document legalization steps
@@ -100,7 +100,7 @@
   - Interview preparation
 - **Files:**
   - `README.md` (this file) and `russia-scholarship-guide.html` are current.
-  - `cv.html`, `motivation-letter.html` and `recommendation-letter.html` are A4 HTML. Yellow highlights mark placeholders. Print them to PDF from Chrome.
+  - `cv.html`, `motivation-letter.html` and the three `recommendation-letter*.html` files are A4 HTML. Yellow highlights mark placeholders. Print them to PDF from Chrome.
   - ⚠️ `ami-russia-student-visa-valiant-cerf.md` is an **outdated first draft**. It does not mention the Open Doors age rule. Do not rely on it.
 
 ---
@@ -113,6 +113,8 @@
 | [cv.html](cv.html) | English CV। হলুদ জায়গাগুলো পূরণ করে Chrome-এ Ctrl+P দিয়ে PDF বানান। |
 | [motivation-letter.html](motivation-letter.html) | English Motivation Letter (~৪৮০ শব্দ, ১ পৃষ্ঠা)। এটাও একইভাবে পূরণ করে PDF বানান। |
 | [recommendation-letter.html](recommendation-letter.html) | Qtec-এর Team Lead-এর জন্য Recommendation Letter-এর খসড়া। উনি পড়ে, একটা নির্দিষ্ট উদাহরণ যোগ করে, company-র প্যাডে প্রিন্ট করে সই করবেন। |
+| [recommendation-letter-teacher-1.html](recommendation-letter-teacher-1.html) | Diploma-র প্রথম শিক্ষকের জন্য খসড়া: পড়াশোনা আর technical দিক (যে subject পড়িয়েছেন, ফলাফল)। |
+| [recommendation-letter-teacher-2.html](recommendation-letter-teacher-2.html) | Diploma-র দ্বিতীয় শিক্ষকের জন্য খসড়া: lab, project আর স্বভাব। দুই শিক্ষকই পড়ে, অসত্য কিছু থাকলে কেটে, Institute-এর প্যাডে সই আর সিল দেবেন। |
 
 ---
 
@@ -132,7 +134,7 @@
 | Passport | আছে, মেয়াদ আরও ৪–৫ বছর ✅ |
 | IELTS | দেওয়া নেই |
 | বাজেট | **শুধু প্রথম বছরের জন্য ৫–৭ লাখ টাকা।** এরপর part-time কাজ করে নিজের খরচ চালাতে হবে। Quota পেলে সম্ভব। **Quota ছাড়া সম্ভব না।** |
-| Recommendation letter | Qtec-এর Team Lead, যিনি ~২ বছর ৮ মাস ধরে আমাকে চেনেন। খসড়া তৈরি: [recommendation-letter.html](recommendation-letter.html) |
+| Recommendation letter | Qtec-এর Team Lead, যিনি ~২ বছর ৮ মাস ধরে আমাকে চেনেন। খসড়া তৈরি: [recommendation-letter.html](recommendation-letter.html)। সাথে Barguna Polytechnic-এর দুইজন Diploma শিক্ষকের চিঠি (খসড়া তৈরি, শিক্ষকদের তথ্য বাকি) |
 
 ---
 
@@ -210,7 +212,8 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 - [ ] Application-এ একবারই tuition-free আবেদন করা যায়, তাই submit-এর আগে সব তথ্য আর কাগজ ভালো করে মিলিয়ে নেওয়া। "Withdraw application" ভুল করে না চাপা
 - [ ] সব ফাইল .pdf/.jpeg/.png আর ১০ MB-র কম করা। Print করা application-এ সই করে scan করে upload করা
 - [x] Experience certificate: Power China থেকে নেওয়া হয়নি, আর নেওয়ার দরকারও নেই (ব্যবহারকারীর সিদ্ধান্ত, ১ নভেম্বর ২০২৬)। Qtec-এর certificate ঐচ্ছিক। Power China-র appointment letter, ID card বা বেতনের কাগজ রেখে দেওয়া ভালো, প্রমাণ লাগলে কাজে আসবে
-- [ ] Recommendation letter: Team Lead-কে `recommendation-letter.html`-এর খসড়া দেওয়া। উনি পড়ে, একটা উদাহরণ যোগ করে, company-র প্যাডে সই করবেন। দ্বিতীয় letter (Diploma-র শিক্ষক বা Power China-র supervisor) ঐচ্ছিক।
+- [ ] Recommendation letter: Team Lead-কে `recommendation-letter.html`-এর খসড়া দেওয়া। উনি পড়ে, একটা উদাহরণ যোগ করে, company-র প্যাডে সই করবেন।
+- [ ] দুইজন Diploma শিক্ষকের letter: `recommendation-letter-teacher-1.html` আর `-teacher-2.html`-এ শিক্ষকের নাম, পদবি, subject আর একটা নির্দিষ্ট ঘটনা বসানো। শিক্ষক পড়ে, দরকার হলে বদলে, Institute-এর প্যাডে সই আর সিল দেবেন। ডিসেম্বরের মধ্যে নেওয়া (deadline আনুমানিক ১৫ জানুয়ারি ২০২৭)
 - [ ] `cv.html` আর `motivation-letter.html`-এর হলুদ জায়গা পূরণ করে PDF বানানো
   - [ ] Power China-র পদবি certificate-এর সাথে মিলিয়ে নেওয়া
   - [ ] Qtec-এর পুরো আইনি নাম বসানো
