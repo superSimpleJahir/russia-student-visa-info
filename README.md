@@ -1,6 +1,6 @@
 # 🇷🇺 রাশিয়ায় পড়াশোনা: পরিকল্পনা ও সারসংক্ষেপ
 
-> শেষ আপডেট: ১৮ নভেম্বর ২০২৬ · লক্ষ্য: **সেপ্টেম্বর ২০২৭ intake**
+> শেষ আপডেট: ১৯ নভেম্বর ২০২৬ · লক্ষ্য: **সেপ্টেম্বর ২০২৭ intake**
 > Deadline আর fee বদলাতে পারে। আবেদনের আগে অফিসিয়াল ওয়েবসাইটে মিলিয়ে নিন।
 
 ---
@@ -28,7 +28,7 @@
 - **Open questions:**
   - Is there an age limit for the quota? None was found, but this is not confirmed.
   - Is a BTEB Diploma accepted for Bachelor's entry?
-  - What is the exact 2027/28 quota deadline? (Estimated ~15 Jan 2027.)
+  - What is the exact 2027/28 quota deadline? (Estimated ~15 Jan 2027, copied from the 2025/26 cycle. Russian House replied that the 2027 announcement is not out yet. See the reply below.)
   - Can foreigners enroll in `10.03.01` Information Security? Partly answered: Russian House's own quota IT announcement lists `10.03.01` among the Bachelor's tracks, so it is offered under the quota. Whether a specific university takes foreigners still needs checking.
   - Power China: the user confirmed (1 Nov 2026) "Sub-Assistant Engineer" at "Powerchina Brasil", Mar 2021 to Jan 2023 (LinkedIn says "Assistant Engineer", so the LinkedIn title may need fixing). Plant: "Barishal 350 MW Coal-Fired Power Plant" (from the user's Google Maps link; coordinates 21.965 N, 90.071 E, which look like the Patuakhali/Payra area, so the district is not added to the CV).
   - What is Qtec's full legal name?
@@ -74,6 +74,13 @@
     - Open point: this guide says "apostilled", while our legalization order is board verification, then MoFA attestation, then the Russian embassy. Ask Russian House which applies now before paying for any legalization.
     - The full steps are in `russia-scholarship-guide.html` section 7.
   - **Consent form (Russian House instruction, 1 Nov 2026, text pasted by the user):** the form is a Google Doc that Russian House shares for people who cannot download it from the portal. Fill name, passport number and passport place of issue on **pages 3 and 6**, add date and signature, then submit. A sample copy exists. Sources disagree on whether it is needed at the start or only after the interview, so ask. The Google Doc itself was not opened.
+  - **Russian House Dhaka reply (pasted 19 Nov 2026; the query was passed on 3 Nov 2026 from the embassy Cultural Department to `rusedu.bd@yandex.com`, reply signed by Syed Bazlul Hasan, Russian House in Dhaka, mobile 01817294595):**
+    - The official announcement for the Russian Government Scholarship 2027/28 has **not been published yet**. Russian House *expects* the application process to begin on **15 Nov 2026**. That date has already passed (today is 19 Nov), so no confirmation has been seen. Treat it as an expectation only.
+    - The announcement will carry the process, eligibility criteria, required documents, selection procedure and other requirements. All official announcements will be on the Russian House in Bangladesh Facebook page (`https://www.facebook.com/RHDDHAKABD/`). Their other channels: Telegram `https://t.me/RussianHouseDHK`, website `https://bangladesh.rs.gov.ru/en/`.
+    - **Not answered:** the reply is generic. It does not cover the age limit, BTEB Diploma acceptance, legalization timing or the deadline. Those questions are still open, so don't mark them as answered.
+    - Consequence: the portal's 2027–2028 "Create a new application" button not working on 1 Nov 2026 is explained, since applications were not open. The earlier guess (about 15 Jan 2027 deadline) is still only a guess.
+    - **Second reply (pasted 19 Nov 2026, same sender, shorter):** it repeats the same message. The 2027 announcement is not published, applications are expected to begin 15 Nov 2026, and details will be on the Russian House in Bangladesh Facebook page. It adds nothing new and still doesn't answer the age limit, Diploma acceptance, legalization timing or deadline. Two replies in a row with the same expected date and no announcement suggests the date has slipped, so don't rely on it.
+    - The forwarding contact was Proshanta Kumar Barman, Head of Cultural Programmes, Embassy Cultural Department (+8801819271133, +8801714337716).
   - **Russian House homepage (pasted 1 Nov 2026):** the latest news is dated 30 Sep 2026. Its quota announcements are the old 2025/26 ones (deadline 15 Jan 2026). **No 2027/28 quota dates were visible**, so check education-in-russia.com directly. Russian House also runs Russian language courses ("Free Russian language courses" is in its menu), which is useful for the A1 goal.
   - Recommender: the Qtec Team Lead, who has supervised the applicant for about 2 years 8 months (since early 2024). The draft is in `recommendation-letter.html`. Two more letters from Diploma teachers at Barguna Polytechnic Institute are planned (decided 18 Nov 2026). Drafts: `recommendation-letter-teacher-1.html` (academic and technical focus) and `recommendation-letter-teacher-2.html` (lab work, project and character focus). The teachers' details are not filled in yet. The two letters must stay different from each other, and the teachers must remove anything they cannot confirm. NUB teachers are not suitable because they have known the applicant only since October 2026.
   - No IELTS or other English test. Focus on Russian-taught quota programs. Innopolis has its own English test, and HSE's English programs would need proof of English.
@@ -88,7 +95,7 @@
   - English level
   - The date on the letter
 - **Next 3 actions, in order:**
-  1. Contact Russian House Dhaka or the embassy. Ask about the quota age limit, BTEB Diploma acceptance, the exact deadline, and when documents must be legalized.
+  1. Follow the Russian House Dhaka Facebook page and Telegram, and check the education-in-russia.com 2027–2028 tab, for the official announcement (replied 19 Nov 2026: not published yet). When it appears, read the age limit, document list and deadline in it. If those are still unclear, send a follow-up to `rusedu.bd@yandex.com` about the age limit, BTEB Diploma acceptance and when documents must be legalized.
   2. Give the Qtec Team Lead the draft in `recommendation-letter.html` to review, add one specific example to, and sign.
   3. Create an Outlook/Yandex email and an education-in-russia.com account, then fill in the CV and letter and export them to PDF.
 - **Useful next help:**
@@ -202,7 +209,8 @@ English-এ পড়তে চাইলে বিকল্প: **Innopolis** ([
 
 ## ✅ To-Do
 
-- [ ] Russian House Dhaka বা দূতাবাসে যোগাযোগ (বয়সের সীমা, Diploma-র স্বীকৃতি, deadline, কবের মধ্যে legalization লাগবে)
+- [x] দূতাবাস হয়ে Russian House Dhaka-তে প্রশ্ন পাঠানো (৩ নভেম্বর ২০২৬)। ১৯ নভেম্বর ২০২৬-এ উত্তর এসেছে: ২০২৭/২৮-এর অফিসিয়াল ঘোষণা এখনো প্রকাশ হয়নি, আবেদন শুরু হওয়ার কথা ১৫ নভেম্বর ২০২৬ (আনুমানিক, সেই তারিখ পার হয়ে গেছে)। সব ঘোষণা Facebook পেজে আসবে
+- [ ] Russian House-এর Facebook পেজ (https://www.facebook.com/RHDDHAKABD/) আর Telegram (https://t.me/RussianHouseDHK) follow করা, প্রতি দিন বা দুই দিন পরপর দেখা। ঘোষণা এলে বয়সের সীমা, Diploma-র স্বীকৃতি, কাগজের তালিকা আর deadline পড়ে নেওয়া। না পেলে rusedu.bd@yandex.com-এ আবার জিজ্ঞেস করা (আর কবের মধ্যে legalization লাগবে সেটাও)
 - [x] Passport আছে কিনা আর মেয়াদ কতদিন বাকি দেখা (অন্তত ১৮ মাস লাগবে)। আরও ৪–৫ বছর আছে ✅
 - [x] Outlook email খোলা: mrjahirulislam@outlook.com ✅ (দূতাবাস Gmail না দিতে বলেছিল)
 - [x] education-in-russia.com-এ account খোলা ✅ (১ নভেম্বর ২০২৬)। Portal-এ নাম দেখাচ্ছে "Islam Jahir M.", তাই My Profile-এ passport-এর বানানের সাথে মিলিয়ে নেওয়া বাকি
